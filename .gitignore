@@ -1,0 +1,7 @@
+__pycache__/
+*.jpg
+extracted_images/
+final_images/
+*.docx
+*.vtt
+*.mp4

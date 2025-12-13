@@ -1,0 +1,6 @@
+python-docx
+webvtt-py
+opencv-python
+openai
+numpy
+python-dotenv
