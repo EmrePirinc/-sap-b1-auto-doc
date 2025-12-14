@@ -1,0 +1,167 @@
+[
+    {
+        "type": "heading",
+        "level": 1,
+        "text": "1. Giriş ve WMS Yapısı"
+    },
+    {
+        "type": "step",
+        "time": 10,
+        "text": "Eğitim, SAP içerisindeki WMS (Warehouse Management System) ve El Terminali entegrasyonlarını kapsamaktadır. Depo süreçleri, satış ve satın alma modülleri arasındaki mal hareketlerini yönetir."
+    },
+    {
+        "type": "step",
+        "time": 76,
+        "text": "Deponun ana devreye girdiği noktalar: Satışta 'Siparişten Teslimata', Satın Almada ise 'Siparişten Mal Girişine' olan süreçlerdir."
+    },
+    {
+        "type": "heading",
+        "level": 1,
+        "text": "2. Genel Parametre Yönetimi"
+    },
+    {
+        "type": "step",
+        "time": 544,
+        "text": "Yönetim ekranından 'Genel Parametreler' sekmesine gidiniz. 'Depo Yerini Aktifleştir': İşletmede raf (Bin Location) sistemi kullanılıyorsa bu seçenek işaretlenmelidir."
+    },
+    {
+        "type": "step",
+        "time": 566,
+        "text": "'Aramalarda Türkçe Karakter': Terminal aramalarında Türkçe karakter desteği sağlar."
+    },
+    {
+        "type": "step",
+        "time": 631,
+        "text": "'Basamaklar': Terminal ekranında görünecek ondalık basamak sayısını belirler (Örn: SAP'de 6 hane ise burada 2 hane gösterilebilir)."
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "2.1. Orijinal ve Taslak Belge Yönetimi"
+    },
+    {
+        "type": "step",
+        "time": 700,
+        "text": "Nakil ve Transfer işlemlerinde 'Orijinal Belge' veya 'Taslak Belge' oluşturma seçeneği vardır. Taslak Belge, onay gerektiren durumlarda kullanılır."
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "2.2. Ara Depo Mantığı"
+    },
+    {
+        "type": "step",
+        "time": 818,
+        "text": "'Ara Depo Kullan': Fiziksel mesafesi olan depolar arası transferlerde (Örn: Şehirlerarası) malın yolda olduğunu takip etmek için kullanılır."
+    },
+    {
+        "type": "step",
+        "time": 850,
+        "text": "Ara depo kullanımı, malın yola çıktığı ancak henüz karşı depoya varmadığı durumları (yoldaki mal) takip etmek için kritiktir. Aksi takdirde sayım farkları oluşabilir."
+    },
+    {
+        "type": "heading",
+        "level": 1,
+        "text": "3. Spesifik İşlem Parametreleri"
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "3.1. Sipariş ve Mal Girişi Ayarları"
+    },
+    {
+        "type": "step",
+        "time": 1620,
+        "text": "'Siparişe Bağlı Teslimat Filtresi': Listelemede Sipariş Tarihi mi yoksa Teslimat Tarihi mi baz alınacak buradan seçilir."
+    },
+    {
+        "type": "step",
+        "time": 1685,
+        "text": "'Mal Girişini Aylık Yönet': İleri tarihli planlamalar yapan firmalar için haftalık yerine aylık iş listesi dökümü sağlar."
+    },
+    {
+        "type": "step",
+        "time": 1770,
+        "text": "'Otomatik Topla ve Bas': Mal kabulde okutulan ürünleri otomatik toplar, manuel onayı azaltır."
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "3.2. Barkod ve Parti Yönetimi"
+    },
+    {
+        "type": "step",
+        "time": 1810,
+        "text": "'Barkod/Kalem Kodu Birlikte Okuma': Okutulan veriyi hem barkod hem de stok kodu tablosunda arar."
+    },
+    {
+        "type": "step",
+        "time": 1882,
+        "text": "'Tarih Bazlı Parti Oluşturma': Sistemin otomatik parti numarası (YYYYAAGG-SıraNo) atamasını sağlar. Hızlı girişler için kritiktir."
+    },
+    {
+        "type": "step",
+        "time": 2160,
+        "text": "'Ölçü Birim Kodunu/Adını Göster': Ekranlarda 'ADET' yerine '1', 'KOLI' yerine '2' yazıyorsa, kod yerine ismin görünmesini sağlar."
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "3.3. Depo Sayım Parametreleri"
+    },
+    {
+        "type": "step",
+        "time": 2436,
+        "text": "'Miktar Ekranını Otomatik Aç': Ürün okutulduğunda direkt miktar giriş penceresini getirir."
+    },
+    {
+        "type": "step",
+        "time": 2446,
+        "text": "'Say Butonuna Otomatik Bas': Her okutmada 1 adet sayar ve kaydeder, seri sayımlar için hız kazandırır."
+    },
+    {
+        "type": "heading",
+        "level": 1,
+        "text": "4. Yetkilendirme ve Kullanıcı Yönetimi"
+    },
+    {
+        "type": "step",
+        "time": 2740,
+        "text": "Kullanıcıların sisteme tanımlanması ve yetkilendirilmesi 'Genel Parametreler' ve 'Buton Parametre' ekranlarından yönetilir."
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "4.1. Ekran Görünürlüğü (Buton Parametre)"
+    },
+    {
+        "type": "step",
+        "time": 2814,
+        "text": "'Buton Parametre' ekranı: Hangi şirketin hangi terminal ekranlarını (Modülleri) görebileceği buradan seçilir."
+    },
+    {
+        "type": "step",
+        "time": 3050,
+        "text": "Örnek: Bir kullanıcıya sadece 'Talepsiz Depo Nakli' yetkisi verilirse, terminali açtığında sadece bu menüyü görür."
+    },
+    {
+        "type": "heading",
+        "level": 2,
+        "text": "4.2. Versiyon 2: Matris Yetkilendirme"
+    },
+    {
+        "type": "step",
+        "time": 3412,
+        "text": "Genel Parametrelerden 'Versiyon 2' seçilirse, 'Depo Parametre' ekranı matris yapıya döner. Her ekran ve depo kombinasyonu için ayrı yetki verilebilir."
+    },
+    {
+        "type": "step",
+        "time": 3663,
+        "text": "Örneğin personel, sadece 'Belgesiz Mal Girişi' ekranında ve sadece belirli 2 depoda işlem yapabilir olarak kısıtlanabilir."
+    },
+    {
+        "type": "step",
+        "time": 4000,
+        "text": "Bu eğitim videosu bu konu başlıklarını kapsamaktadır. Bir sonraki oturumda ekran bazlı detaylı kullanıma geçilecektir."
+    }
+]
