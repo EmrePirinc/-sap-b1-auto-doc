@@ -1,0 +1,2701 @@
+﻿WEBVTT
+
+00:00:02.101 --> 00:00:03.841
+Speaker 1: SAP'de nereye denk geliyor?
+
+00:00:04.841 --> 00:00:08.201
+Speaker 1: Onları anlatarak başlayayım istiyorum.
+
+00:00:09.361 --> 00:00:12.521
+Speaker 1: Şimdi depo önce SAP'ye gidelim.
+
+00:00:12.841 --> 00:00:15.701
+Speaker 1: SAP'de iki tane alanımız var depoyu ilgilendiren.
+
+00:00:16.201 --> 00:00:19.261
+Speaker 1: Birisi satış, birisi satın alma esasen.
+
+00:00:19.661 --> 00:00:21.781
+Speaker 1: Olay bu ikisinden başlıyor.
+
+00:00:22.021 --> 00:00:25.281
+Speaker 1: Depo direkt tek başına bir işlem yapmıyor aslında.
+
+00:00:25.941 --> 00:00:30.441
+Speaker 1: Bu iki taraftan bir hareket olması gerekiyor.
+
+00:00:30.521 --> 00:00:35.341
+Speaker 1: Bunun içerisinde Depo devreye giriyor.
+
+00:00:35.801 --> 00:00:36.981
+Speaker 1: Nerede depo devreye giriyor?
+
+00:00:37.081 --> 00:00:39.661
+Speaker 1: Malların hareketinde depo devreye giriyor.
+
+00:00:39.821 --> 00:00:46.681
+Speaker 1: Çünkü satış ve satın almada da gelen malların şirket içerisinde, firmalar içerisinde hareket etmesi gerekiyor.
+
+00:00:47.281 --> 00:00:52.101
+Speaker 1: Bu hareket esnasında aslında depoyu biz kullanıyoruz ve depo devreye giriyor.
+
+00:00:52.201 --> 00:00:55.761
+Speaker 1: Bu hareketleri yönetmede, bu hareketleri araya girmede.
+
+00:00:56.181 --> 00:00:59.041
+Speaker 1: Şimdi satışı düşündüğünüzde satışta ne var?
+
+00:00:59.141 --> 00:01:03.748
+Speaker 1: Hem satışta hem satın almada 5 tane Ana ekranımız vardı hatırlarsanız.
+
+00:01:04.367 --> 00:01:05.568
+Speaker 1: Ana ekranlardan gidiyorum.
+
+00:01:05.688 --> 00:01:07.248
+Speaker 1: Aralarda diğer ekranlar da var.
+
+00:01:07.828 --> 00:01:08.848
+Speaker 1: Talepten başlıyorduk.
+
+00:01:08.928 --> 00:01:10.288
+Speaker 1: Talep, teklif, sipariş.
+
+00:01:10.828 --> 00:01:12.608
+Speaker 1: Sonrasında teslimat ve fatura.
+
+00:01:13.368 --> 00:01:15.708
+Speaker 1: Bu iki tarafta da aynı şekilde ilerliyor.
+
+00:01:16.408 --> 00:01:17.768
+Speaker 1: Depo burada nerede devrede?
+
+00:01:17.968 --> 00:01:19.628
+Speaker 1: Depo bunların hepsinde devrede mi?
+
+00:01:19.708 --> 00:01:44.549
+Speaker 1: Aslında baktığınızda depo burada ana olarak devrede olduğu ana nokta siparişten teslimata geçerken satın alma tarafında ise siparişten mal girişine geçerken aslında depo yaptığı bütün işlemleri bu iki aralıkta şirket içerisinde olan işlemlerden kaynaklanıyor.
+
+00:01:45.109 --> 00:01:48.649
+Speaker 1: Siparişten teslimata geçerken en büyük işler burada.
+
+00:01:49.169 --> 00:01:51.109
+Speaker 1: Diğer işleri nerede olabiliyor?
+
+00:01:51.609 --> 00:01:58.909
+Speaker 1: Bir de bunların ikisi de bu iki işlemde ana mal giriş işlemleri ya da mal çıkış işlemleri.
+
+00:01:59.369 --> 00:02:01.363
+Speaker 1: Bunların dışarısının dışında.
+
+00:02:01.783 --> 00:02:03.543
+Speaker 1: Bir de hangi işlem olabiliyor depoda?
+
+00:02:04.623 --> 00:02:06.323
+Speaker 1: Iıı transfer işlemleri olabiliyor.
+
+00:02:07.523 --> 00:02:08.923
+Speaker 1: Yani depolar arası transfer.
+
+00:02:09.002 --> 00:02:14.483
+Speaker 1: Bu depolar arası transfer dediğim şey sadece A deposundan B deposuna gidiyor gibi düşünmeyin.
+
+00:02:15.043 --> 00:02:19.923
+Speaker 1: Üretimde de aslında deponun devreye girdiği nokta transfer noktası olmuş oluyor.
+
+00:02:20.463 --> 00:02:21.103
+Speaker 1: Ne demek bu?
+
+00:02:21.263 --> 00:02:24.743
+Speaker 1: Üretim yapmak için bir mal kabulünüz olması lazım.
+
+00:02:25.383 --> 00:02:28.163
+Speaker 1: Ürünleri kabul ettiğiniz bir deponuz olması lazım.
+
+00:02:28.283 --> 00:02:31.818
+Speaker 1: Ürettikten sonra da ürünlerin çıkış deposu olması lazım.
+
+00:02:32.378 --> 00:02:40.538
+Speaker 1: Bu iki depolara mal gelişi ve mal üretilen ürünün depodan çıkması da aslında bir transfer işlemi.
+
+00:02:42.238 --> 00:02:45.058
+Speaker 1: Deponun ana hareket noktaları bunlar.
+
+00:02:45.378 --> 00:02:49.478
+Speaker 1: Yönlendirdiğimiz ana hareket noktaları depoda buralar oluyor.
+
+00:02:50.058 --> 00:02:51.918
+Speaker 1: Şimdi biz burada ne yapıyoruz?
+
+00:02:52.078 --> 00:02:53.758
+Speaker 1: Burada iki tane şey yapılıyor.
+
+00:02:53.898 --> 00:02:57.918
+Speaker 1: Satın alma işlemini düşünürseniz mal kabul yapılıyor.
+
+00:02:59.153 --> 00:03:00.693
+Speaker 1: ürünü ben siparişini verdim.
+
+00:03:01.153 --> 00:03:02.413
+Speaker 1: Bunun mal kabulünü yapacağım.
+
+00:03:02.633 --> 00:03:06.553
+Speaker 1: Bu mal kabul dediğiniz şeyde devreye birkaç tane şey giriyor.
+
+00:03:06.653 --> 00:03:07.733
+Speaker 1: Basit işlemde nedir?
+
+00:03:07.833 --> 00:03:11.193
+Speaker 1: Ben on adet bir ürün siparişini verdim.
+
+00:03:11.773 --> 00:03:15.293
+Speaker 1: On adet ürünün de gelmesini ve deponun bunu kabul etmesini bekliyorum.
+
+00:03:15.413 --> 00:03:18.373
+Speaker 1: En basit eee işlem bu.
+
+00:03:19.373 --> 00:03:21.633
+Speaker 1: Bunun chatte filleştiği yerler nereler oluyor?
+
+00:03:22.313 --> 00:03:24.493
+Speaker 1: Ben yüz tane sipariş verdim.
+
+00:03:24.913 --> 00:03:27.633
+Speaker 1: Ama bunun on tanesi bugün gelecek.
+
+00:03:27.959 --> 00:03:35.159
+Speaker 1: 10 tanesi bir ay sonra gelecek, 10 tanesi öteki ay gelecek, 10 tanesi 3 ay sonra gelecek şeklinde de olabilir.
+
+00:03:35.379 --> 00:03:39.599
+Speaker 1: Yani bir sipariş birden fazla teslimatı da içerebilir.
+
+00:03:40.259 --> 00:03:43.379
+Speaker 1: Bu da bizi çekil listelerine götüren şeye itiyor.
+
+00:03:44.099 --> 00:03:45.019
+Speaker 1: Dünyaya itiyor.
+
+00:03:46.179 --> 00:03:49.019
+Speaker 1: Ortada bir çekil listesi kavramı ortaya çıkıyor.
+
+00:03:49.099 --> 00:03:49.219
+Speaker 1: Niye?
+
+00:03:49.279 --> 00:03:52.159
+Speaker 1: Ben siparişin tamamını karşılamıyorum.
+
+00:03:53.159 --> 00:03:56.599
+Speaker 1: Siparişimin açıkta kalmaması lazım, terminalde sürekli.
+
+00:03:57.187 --> 00:04:00.327
+Speaker 1: Terminalde de bir dosya kapatıp açmama neden oluyor.
+
+00:04:01.047 --> 00:04:02.507
+Speaker 1: Ne demek oluyor bu?
+
+00:04:02.587 --> 00:04:07.207
+Speaker 1: Benim sipariş dışında ara bir belgeye daha ihtiyacım oluyor.
+
+00:04:07.287 --> 00:04:09.227
+Speaker 1: Deponun neyi teslim alacağına dair.
+
+00:04:09.787 --> 00:04:12.227
+Speaker 1: Bunu SAP ile yaptığınızda dünyanız kolay.
+
+00:04:12.567 --> 00:04:18.666
+Speaker 1: Çünkü SAP bir siparişin üstünden istediğiniz kadar teslimat açmanıza izin veriyor.
+
+00:04:18.827 --> 00:04:20.867
+Speaker 1: Siz de buradan açık siparişlere bakıyorsunuz.
+
+00:04:20.906 --> 00:04:25.067
+Speaker 1: Ama terminal daha spesifik bir şey ve daha günlük bir işlem.
+
+00:04:25.773 --> 00:04:38.893
+Speaker 1: Yani listelemelerden, şeylerden daha uzun bir dönemi listelemediğiniz, sadece bugünün işleri, yarının işleri, bir sonraki günlerin işleri gibi düşünmeniz gereken, anlık hareketleri takip etmeniz gereken bir yer.
+
+00:04:39.333 --> 00:04:42.553
+Speaker 1: Sistemi tek başına kullandığınızda bu ihtiyacınız olmuyor.
+
+00:04:43.013 --> 00:04:45.673
+Speaker 1: Sistemin tamamını kullanarak yapabiliyorsunuz.
+
+00:04:45.753 --> 00:04:50.793
+Speaker 1: Ama terminal dediğinizde buna dikkat etmeniz gerekiyor.
+
+00:04:51.633 --> 00:04:53.613
+Speaker 1: Niye terminal kullanıyoruz?
+
+00:04:54.713 --> 00:04:55.773
+Speaker 1: sorulardan biri bu.
+
+00:04:55.953 --> 00:05:00.813
+Speaker 1: Madem SAP'de rahat bir şekilde yönetiyoruz, terminale niye ihtiyaç var?
+
+00:05:00.993 --> 00:05:07.653
+Speaker 1: Terminale ihtiyaç aslında biraz kontrol, datanın güvenliği, doğru data girişinin güvenliği.
+
+00:05:07.973 --> 00:05:16.633
+Speaker 1: Bir ikincisi de oradaki kişilerin SAP kullanacak kalifikasyonda olmaması, kualitede olmaması.
+
+00:05:16.753 --> 00:05:22.153
+Speaker 1: Yani deneyimleri ve şeyleri bunların SAP kullanmasına engel oluyor.
+
+00:05:22.273 --> 00:05:32.315
+Speaker 1: Genelde daha beyaz yaka değil, mavi yakanın olduğu bir alan olduğu için tüm SAP'yi onlara açmak mantıklı olmuyor.
+
+00:05:32.755 --> 00:05:36.215
+Speaker 1: Tabii bir de bunun maliyet noktası var firmalar için.
+
+00:05:36.895 --> 00:05:44.275
+Speaker 1: Yani depoya girdiğiniz zaman ya da üretime girdiğiniz zaman, operasyonun derinliklerine girdiğiniz zaman maliyet artıyor.
+
+00:05:45.135 --> 00:05:47.115
+Speaker 1: Çünkü daha fazla kullanış var orada.
+
+00:05:47.215 --> 00:05:56.233
+Speaker 1: Mavi yakanın kullanımını açtığınız zaman sistemi SAP'yi mavi yakaya kullandırmaya başladığınız zaman Bu da lisans ihtiyacını büyütüyor.
+
+00:05:56.833 --> 00:05:58.933
+Speaker 1: İkinci şeyi de maliyet.
+
+00:05:59.733 --> 00:05:59.993
+Speaker 1: Şimdi.
+
+00:06:01.573 --> 00:06:03.533
+Speaker 1: Terminale yavaş yavaş geçelim.
+
+00:06:03.993 --> 00:06:06.033
+Speaker 1: Terminale geçmeden önce tabii ki.
+
+00:06:06.853 --> 00:06:08.313
+Speaker 1: Bunu bir SAP'den.
+
+00:06:09.453 --> 00:06:10.673
+Speaker 1: Bakmamız gerekiyor.
+
+00:06:10.773 --> 00:06:12.313
+Speaker 1: Çünkü SAP'de.
+
+00:06:13.693 --> 00:06:15.093
+Speaker 1: Terminin iki bacağı var.
+
+00:06:15.313 --> 00:06:28.238
+Speaker 1: Birincisi SAP bacağı VMS dediğimiz ikincisi Terminal dediğimiz asıl terminal dediğimiz el terminali noktasında kullandıkları mobil cihazlar var.
+
+00:06:28.718 --> 00:06:31.058
+Speaker 1: Tabi biz burada mobil cihazı kullanarak yapmayacağız.
+
+00:06:34.998 --> 00:06:36.978
+Speaker 1: Yıllarım abi canlı firmaya girdim ama.
+
+00:06:37.678 --> 00:06:38.658
+Speaker 2: Örnek veri gireceksen.
+
+00:06:39.058 --> 00:06:42.498
+Speaker 1: Örnek veri girmeyeceğim aslında sadece ekranlara göstereceğim.
+
+00:06:43.378 --> 00:06:43.578
+Speaker 1: Tamam.
+
+00:06:44.418 --> 00:06:47.171
+Speaker 1: Mevcut örnekler üzerinden de Bakarız.
+
+00:06:47.431 --> 00:06:50.891
+Speaker 1: Bugün herhalde örneklere girecek kadar zamanımız olur mu bilmiyorum.
+
+00:06:52.131 --> 00:06:55.751
+Speaker 1: Ekranları tanıtacak kadar zamanımız olur diye düşünüyorum.
+
+00:07:05.871 --> 00:07:09.911
+Speaker 1: Bu addon başlatmaları, addon kurulumunu falan burada göstermiyoruz diye düşünüyorum.
+
+00:07:10.111 --> 00:07:10.651
+Speaker 1: Doğru muyum?
+
+00:07:12.291 --> 00:07:12.971
+Speaker 1: Nihal.
+
+00:07:16.463 --> 00:07:19.223
+Speaker 2: Yok o kadar inmene gerek yok ya.
+
+00:07:19.723 --> 00:07:23.583
+Speaker 3: Gösteren arkadaşlar oldu daha önce video aldık zaten.
+
+00:07:24.543 --> 00:07:25.363
+Speaker 1: Tamam yani.
+
+00:07:26.043 --> 00:07:27.903
+Speaker 1: O kadar girmeyelim.
+
+00:07:28.483 --> 00:07:34.923
+Speaker 1: Şimdi bir noktamız burası terminal kısmı.
+
+00:07:35.283 --> 00:07:43.603
+Speaker 1: Burası VMS kısmında yani SAP tarafında yaptığımız işlem şu.
+
+00:07:44.155 --> 00:07:47.315
+Speaker 1: buradan Hand Terminal'e datayı buradan gönderiyoruz.
+
+00:07:47.535 --> 00:07:52.455
+Speaker 1: Aslında gönderdiğimiz nokta burası oluyor ya da yönettiğimiz nokta burası oluyor.
+
+00:07:53.115 --> 00:07:57.435
+Speaker 1: Eğer sadece dediğim bu ara belgeyi kullanıyorsak buradan yapıyoruz.
+
+00:07:57.575 --> 00:08:03.715
+Speaker 1: Kullanmıyorsak o zaman satı siparişi direkt terminal tarafından satın alma siparişi kullanılabiliyor.
+
+00:08:04.755 --> 00:08:13.343
+Speaker 1: Bir de tabii ki diğer genel parametre ayarları nasıl çalışacağını kişilere yetki vermeyi Onları da buradan yapıyoruz.
+
+00:08:13.743 --> 00:08:18.243
+Speaker 1: İsterseniz tek ekranların üzerinden tek geçelim.
+
+00:08:18.503 --> 00:08:20.523
+Speaker 1: Burada bazı benim bilmediğim ekranlar da var.
+
+00:08:21.163 --> 00:08:24.163
+Speaker 1: Onları da bilenler anlatır diye düşünüyorum.
+
+00:08:24.783 --> 00:08:29.963
+Speaker 1: Nihal programlayarak ilk ana şey tabii ki genel parametre.
+
+00:08:30.943 --> 00:08:34.363
+Speaker 1: Biz bunları ikiye böldük şu anda ama iki tarafta kullanılabiliyor.
+
+00:08:34.563 --> 00:08:41.277
+Speaker 1: Şu yıldızdan sonrası yeni yaptığımız geliştirmelerin içerisinde bulunan yerler.
+
+00:08:41.917 --> 00:08:48.697
+Speaker 1: Yıldız öncesi ise eskiden eski terminalde de olan ana genel parametreler.
+
+00:08:49.177 --> 00:08:55.817
+Speaker 1: Biz yenileştirdikçe ya da kullandıklarımızı tekrar kullandığımız sürece buralara doğru aşağılara doğru almaya çalışıyoruz.
+
+00:08:56.357 --> 00:08:59.437
+Speaker 1: Burada ana başlıklarıyla birleştirmeye çalışıyoruz.
+
+00:09:00.517 --> 00:09:03.677
+Speaker 1: Depo yerini aktifleştir var en başta.
+
+00:09:04.857 --> 00:09:05.557
+Speaker 1: Depolarda.
+
+00:09:08.328 --> 00:09:12.528
+Speaker 1: Terminal ana yapısında deponun yerine dikkat etmiyor.
+
+00:09:12.648 --> 00:09:13.648
+Speaker 1: Yer dediğimiz ne?
+
+00:09:13.988 --> 00:09:15.508
+Speaker 1: Depodan sonra raflar.
+
+00:09:16.168 --> 00:09:21.308
+Speaker 1: Eğer rafları da kullanmak istiyorsak buranın tikli olması gerekiyor.
+
+00:09:22.608 --> 00:09:26.328
+Speaker 1: Aramalarda Türkçe karakter kullanımını aktifleştir.
+
+00:09:26.448 --> 00:09:27.888
+Speaker 1: Bu da kendini açıklayan bir şey.
+
+00:09:28.728 --> 00:09:32.148
+Speaker 1: Barcode yazılırken Crystal Report'u aktifleştir.
+
+00:09:32.288 --> 00:09:34.688
+Speaker 1: Bunu nerede kullanıyoruz bilmiyorum şu anda.
+
+00:09:37.505 --> 00:09:39.045
+Speaker 1: Bir kullandığımız yer var mı?
+
+00:09:39.265 --> 00:09:39.805
+Speaker 1: Onu bilmiyorum.
+
+00:09:40.065 --> 00:09:42.745
+Speaker 1: Depo çalışma tipinde versiyon 1, versiyon 2 var.
+
+00:09:43.345 --> 00:09:46.245
+Speaker 1: Bunlar yetkilendirmede işimize yarayacak.
+
+00:09:46.405 --> 00:09:49.145
+Speaker 1: Yetkilendirme yapılırken bunları anlatacağım.
+
+00:09:49.285 --> 00:10:00.185
+Speaker 1: Versiyon 1 dar yetkilendirme, versiyon 2 dediğimiz şey ise daha geniş ekran yetki vermek istediğimizde kullandığımız içerideki yetkilendirmeyi yönettiğimiz şey.
+
+00:10:00.665 --> 00:10:02.305
+Speaker 1: 2 tane yetki versiyonumuz var.
+
+00:10:02.405 --> 00:10:09.926
+Speaker 1: Birisi bir kişiye bütün depo için kullanımı için yetki verdiğimiz bir yapı var.
+
+00:10:10.326 --> 00:10:16.946
+Speaker 1: Bir de her bir ekran için kullanıcılara yetki verdiğimiz bir yetkilendirme ekranı var.
+
+00:10:17.026 --> 00:10:18.686
+Speaker 1: İkisini aynı anda kullanamıyorsunuz.
+
+00:10:18.746 --> 00:10:21.186
+Speaker 1: İkisinden birini seçmeniz gerekiyor.
+
+00:10:21.646 --> 00:10:26.046
+Speaker 1: Sistem ya genel yetkiyi kullanıyor ya da ekran yetkisini kullanıyor.
+
+00:10:27.426 --> 00:10:30.546
+Speaker 1: Basamaklar SAP'den farklı yönetiliyor.
+
+00:10:31.026 --> 00:10:36.075
+Speaker 1: Yani SAP'de basamak sayınızdan farklı bir basamak seçebilirsiniz.
+
+00:10:36.595 --> 00:10:41.175
+Speaker 1: Ama bu da tabii ki bunların gitmeyeceğini SAP'ye bilmeniz lazım.
+
+00:10:41.755 --> 00:10:46.715
+Speaker 1: Yani görüntü olarak kısmak için kullanmanızda fayda var bunu.
+
+00:10:47.315 --> 00:10:53.035
+Speaker 1: Yani SAP'de 2 iken gelip burada 4'ü kullanmamanızı tavsiye ederim.
+
+00:10:53.635 --> 00:10:57.215
+Speaker 1: Ama SAP'de 6 iken gelip burada 3'ü kullanabilirsiniz.
+
+00:10:57.935 --> 00:10:58.895
+Speaker 1: Ne demek oluyor bu?
+
+00:10:59.335 --> 00:11:04.289
+Speaker 1: Oradaki ekranda fazla dijit görünmesini engellemeye yarıyor aslında.
+
+00:11:04.489 --> 00:11:14.369
+Speaker 1: Görüntü amaçlı ama kıstığınızda tabii ki o 4 basamağa giremeyeceğini de daha fazla basamağa da giremeyeceğini bilmeniz gerekiyor.
+
+00:11:14.949 --> 00:11:16.629
+Speaker 1: Nakil parametrelerimiz var.
+
+00:11:17.129 --> 00:11:19.869
+Speaker 1: Burası biraz karışık.
+
+00:11:20.849 --> 00:11:22.029
+Speaker 1: Bunları.
+
+00:11:23.389 --> 00:11:30.909
+Speaker 1: Ekranları kullandıkça anlayabiliyor olacağız ama buradan neleri değiştirdiğimizi de görüyor olmamız lazım.
+
+00:11:31.630 --> 00:11:37.270
+Speaker 1: Talebe bağlı şu ikisi talebe bağlı deponaklı orijinal belge oluşturur.
+
+00:11:37.330 --> 00:11:44.470
+Speaker 1: Burada içeride bir belge deponaklı yaptığınızda bir talebi açtınız.
+
+00:11:45.130 --> 00:11:46.510
+Speaker 1: O talebi listelediniz.
+
+00:11:47.130 --> 00:11:56.990
+Speaker 1: Deponaklı talebini terminalden kullandığınızda normalde orijinal belge oluşturmasını beklersiniz.
+
+00:11:57.584 --> 00:11:58.924
+Speaker 1: Burada iki seçeneğiniz var.
+
+00:11:59.024 --> 00:12:01.024
+Speaker 1: Taslak bir belge de oluşturabiliyorsunuz.
+
+00:12:01.104 --> 00:12:04.244
+Speaker 1: SAP'den birisi bunu gerçeğe çevirebiliyor.
+
+00:12:04.904 --> 00:12:08.484
+Speaker 1: Ya da direkt orijinal belgeyi de oluşturabiliyorsunuz.
+
+00:12:08.724 --> 00:12:10.864
+Speaker 1: Taslak belgeyi biz niye oluşturuyoruz?
+
+00:12:11.584 --> 00:12:15.444
+Speaker 1: Diğer tarafta kabulü için oluşturuyoruz aslında.
+
+00:12:17.084 --> 00:12:25.124
+Speaker 1: Yani direkt orijinal belge oluşturduğunuzda deponaklı, orijinal belgesini oluşturduğunuzda o deponaklı işlemi gerçekleşiyor.
+
+00:12:25.748 --> 00:12:27.328
+Speaker 1: Ama yaptığımız işlem ne?
+
+00:12:27.388 --> 00:12:29.248
+Speaker 1: Bir depodan öteki depoya almak.
+
+00:12:29.388 --> 00:12:37.428
+Speaker 1: Yani ben bu depoda A deposunda çalışırken depo nakliğinin elemanlarını aslında sisteme yüklüyorum.
+
+00:12:37.848 --> 00:12:43.528
+Speaker 1: Ama benim depomdan çıkıyor, karşı depoya girmiyor.
+
+00:12:44.328 --> 00:12:51.068
+Speaker 1: O yüzden bu arada direkt oluşturursak orijinal vergiyi karşı depoya geçmiş oluyor.
+
+00:12:51.228 --> 00:12:54.608
+Speaker 1: Bu karşı deponun yapacak bir işlemi kalmamış anlamına geliyor.
+
+00:12:55.398 --> 00:13:05.718
+Speaker 1: karşı deponun kabul etmesini sağlamak için veya bunu sağlamak için bu orijinal belge oluşturu tiklemememiz gerekiyor.
+
+00:13:06.198 --> 00:13:10.058
+Speaker 1: Burada da karşı depo pastak olduğu için benim depomdan çıkmıyor.
+
+00:13:10.658 --> 00:13:13.678
+Speaker 1: Karşı depo kabul ettiğinde benim depomdan çıkıyor.
+
+00:13:14.458 --> 00:13:18.518
+Speaker 1: Peki ben bunu benim depomdan çıkmış olarak da görmek istiyorsam ne yapmam gerekiyor?
+
+00:13:18.938 --> 00:13:22.218
+Speaker 1: Evet karşı depoya girmesin ama benim depomdan da çıksın.
+
+00:13:22.658 --> 00:13:27.534
+Speaker 1: Bu durumda da ara depo kullan diye bir seçenek çıkıyor.
+
+00:13:28.514 --> 00:13:30.194
+Speaker 1: Ara depo kullanmanız gerekiyor.
+
+00:13:31.774 --> 00:13:32.594
+Speaker 1: Bu ne demek?
+
+00:13:32.974 --> 00:13:38.114
+Speaker 1: Burada ara depo kullanı seçtiğiniz zaman ara depoyu da şurada bir yerde tanımlıyorduk.
+
+00:13:38.254 --> 00:13:39.734
+Speaker 1: Stock nakli ara depo.
+
+00:13:39.934 --> 00:13:43.994
+Speaker 1: Burada da ara depoyu tanımladığınız zaman sistem ne yapıyor bu sefer?
+
+00:13:44.474 --> 00:13:46.874
+Speaker 1: Bunların ikisini aynı anda kullanmamanız gerekiyor.
+
+00:13:47.254 --> 00:13:49.234
+Speaker 1: İkisinden birini kullanmanız gerekiyor.
+
+00:13:49.754 --> 00:13:51.914
+Speaker 1: Sistem bu sefer de şunu yapıyor.
+
+00:13:52.614 --> 00:13:53.334
+Speaker 1: Gidiyor.
+
+00:13:54.376 --> 00:14:00.096
+Speaker 1: sizin A deposundan gönderdiğinizi B deposuna almak yerine önce C depoya alıyor.
+
+00:14:01.236 --> 00:14:08.836
+Speaker 1: B deposundaki arkadaş bunu kabul ettiği zaman bu sefer C deposundan alıp onun deposuna koyuyor.
+
+00:14:09.576 --> 00:14:14.476
+Speaker 1: Bu durumda stoklarınızın hareketini doğru bir şekilde görebilmiş oluyorsunuz.
+
+00:14:15.256 --> 00:14:17.796
+Speaker 1: Anlık olarak görebilmiş oluyorsunuz.
+
+00:14:18.196 --> 00:14:19.716
+Speaker 2: Peki böyle bir soru sorabilir miyim?
+
+00:14:19.856 --> 00:14:27.163
+Speaker 1: Müşterinin karar vermesi gerekiyor ya da durumu fiziksel şartlara göre Onların nasıl yönettiğine göre bakmanız gerekiyor.
+
+00:14:27.183 --> 00:14:28.503
+Speaker 2: Peki burada bir soru sorabilir miyim?
+
+00:14:29.423 --> 00:14:34.123
+Speaker 2: Ara depoyu kullanmam gereken alanlar ya da yerler nelerdir?
+
+00:14:34.443 --> 00:14:36.563
+Speaker 2: Yani niye ben ara depoyu kullanayım?
+
+00:14:37.183 --> 00:14:38.463
+Speaker 2: Niye böyle bir şey vereyim?
+
+00:14:38.823 --> 00:14:40.143
+Speaker 2: Bana ne kazandıracak?
+
+00:14:40.703 --> 00:14:44.263
+Speaker 2: Müşterim ne yapıyor olması lazım ki ben bu ara depoyu kullanayım?
+
+00:14:45.143 --> 00:14:48.863
+Speaker 1: Şimdi ara depoyu kullanmada benim aklıma gelen 2 tane yer var.
+
+00:14:49.243 --> 00:14:52.343
+Speaker 1: Fazlası varsa sen de ekleyebilirsin Fatih devamında.
+
+00:14:53.793 --> 00:15:04.993
+Speaker 1: ilk olarak aklıma gelen kullanması gereken yer bu depoların arasındaki mesafe uzunsa ne demek bu İstanbul depodan Bursa depoya gönderiyorsan.
+
+00:15:05.093 --> 00:15:06.933
+Speaker 1: Çünkü arada bir zaman geçişi var.
+
+00:15:07.093 --> 00:15:09.613
+Speaker 1: Arada bir ciddi bir saat farkı var.
+
+00:15:09.773 --> 00:15:11.393
+Speaker 1: Hatta gün farkı bile olabilir.
+
+00:15:11.673 --> 00:15:17.633
+Speaker 1: Mesafenin uzunluğuna göre bir fabrikasından başka bir fabrikasına da mal gönderiyor olabilirim.
+
+00:15:17.993 --> 00:15:20.873
+Speaker 1: Bunları terminalden yapabiliyor, yapıyor olabilirim.
+
+00:15:21.193 --> 00:15:27.010
+Speaker 1: Bu durumda benim Bursa'daki depomun storunu doğru olarak görmem lazım.
+
+00:15:27.630 --> 00:15:30.890
+Speaker 1: Ya da Urfa'daki depomun storunu doğru olarak görmem lazım.
+
+00:15:31.210 --> 00:15:32.530
+Speaker 1: İstanbul depoya bakarken.
+
+00:15:33.270 --> 00:15:43.070
+Speaker 1: Eğer İstanbul depodan nakit çıkmışsa, Urfa'ya gitmişse ben Urfa'da bir depo sayıyorsam arada iki günde mesafe varsa depo sayımında bu ürünleri görmem.
+
+00:15:43.390 --> 00:15:46.730
+Speaker 1: Ama SAP bunu o ürünü çat diye oraya koymuş olur.
+
+00:15:48.130 --> 00:15:49.990
+Speaker 1: Burada ara depo kullanmam gerekiyor.
+
+00:15:50.130 --> 00:15:51.310
+Speaker 1: Taslak da kullanamam.
+
+00:15:51.490 --> 00:15:55.010
+Speaker 1: Çünkü taslak da bu sefer İstanbul depodan malı çıkartmamış oluyor.
+
+00:15:55.370 --> 00:15:56.870
+Speaker 1: Halbuki mal çıkmış yolda.
+
+00:15:57.670 --> 00:16:00.030
+Speaker 1: Ama ben geliyorum İstanbul depoyu saymaya.
+
+00:16:00.950 --> 00:16:03.110
+Speaker 1: Saymaya geldiğimde bir sayım farkı çıkıyor.
+
+00:16:03.210 --> 00:16:07.090
+Speaker 1: Yani burada esas ana gerekçe sayım.
+
+00:16:07.470 --> 00:16:20.361
+Speaker 1: Ben bu sayımı transferler gerçek sayım yaparken ortada hala bir transfer varsa açıkta kalan Bu durumda avro depo kullanmam gerekiyor ki depo sayımına doğru bir şekilde ulaşayım.
+
+00:16:21.101 --> 00:16:23.521
+Speaker 1: Ne zaman taslak kullanmam gerekiyor?
+
+00:16:23.821 --> 00:16:41.481
+Speaker 1: Eğer fabrika içi bir transfer yapıyorsam bunlar anlık transferlerse çok ciddi bir zaman almayan oradan oraya yer değişimi maksatlı yapıyorsam o zaman orijinal belge oluştuğu taslak belge oluştuğu seçebiliriz.
+
+00:16:42.441 --> 00:16:44.841
+Speaker 2: Var mı başka yorum?
+
+00:16:51.665 --> 00:17:00.865
+Speaker 1: Başka nerede kullanacağımızı kendi müşterilerinden ya da başına gelen olaylardan varsa onları da alalım.
+
+00:17:03.185 --> 00:17:09.724
+Speaker 1: Kesin tesellim niyetiyle olabilir belki bir de.
+
+00:17:10.224 --> 00:17:11.625
+Speaker 1: Biraz daha aç istersen.
+
+00:17:12.605 --> 00:17:16.724
+Speaker 1: Yani aldım, malı oraya yolladım depocu olarak, öteki adamla kabul ettim.
+
+00:17:16.845 --> 00:17:19.525
+Speaker 1: Sırf bunun için de kullanabiliriz gibi geliyor bana.
+
+00:17:20.538 --> 00:17:24.058
+Speaker 1: Yok soru nakil ara depo kullanılmalı mıyız?
+
+00:17:24.137 --> 00:17:25.018
+Speaker 1: Kullanmamalıyız.
+
+00:17:25.897 --> 00:17:28.638
+Speaker 1: Teslim tesellimde gene taslakla da yapabilirsin.
+
+00:17:29.058 --> 00:17:31.978
+Speaker 1: Çünkü sonuçta bir belge oluşturmuş oluyorsun sistemde.
+
+00:17:34.598 --> 00:17:39.298
+Speaker 1: Çünkü orada da bir alma ve yollama ve kabul etme var.
+
+00:17:39.438 --> 00:17:41.238
+Speaker 1: İkisinde de aslında bu sorunu çözüyorsun.
+
+00:17:41.898 --> 00:17:42.818
+Speaker 1: İkisinde de yolluyorsun.
+
+00:17:43.178 --> 00:17:45.258
+Speaker 1: İkisinde de karşı taraf kabul ediyor.
+
+00:17:46.918 --> 00:17:49.118
+Speaker 1: Yok mu?
+
+00:17:51.149 --> 00:17:54.309
+Speaker 3: Peki şey merak ediyorum, taslak dediğimiz şey mi?
+
+00:17:55.609 --> 00:18:00.349
+Speaker 3: Deposuz, depo gibi davranan bir sistem mi yoksa...
+
+00:18:00.349 --> 00:18:05.089
+Speaker 1: Taslak dediğimiz askıda kalmış bir, yani daha kaydetmediğim doküman.
+
+00:18:05.849 --> 00:18:10.109
+Speaker 1: Oluşturmadım yani, stok naklini açtım, ekranı açtım, bilgileri girdim.
+
+00:18:10.609 --> 00:18:16.949
+Speaker 1: Ama sisteme eklemek yerine, yanında küçük bir ok var bizde, orada taslak olarak ekledim.
+
+00:18:17.660 --> 00:18:21.360
+Speaker 1: Yani sistem bu dosyayı orijinal olarak eklemedi.
+
+00:18:21.600 --> 00:18:24.980
+Speaker 1: Bu dosyaya gerekli olan hiçbir hareketi de yapmadı.
+
+00:18:25.980 --> 00:18:27.440
+Speaker 1: Yapması gereken.
+
+00:18:27.760 --> 00:18:31.040
+Speaker 3: Arka planda tablosu ayrı mı tutuluyor taslaklar için?
+
+00:18:31.920 --> 00:18:34.400
+Speaker 1: Tablosu bildiğim kadarıyla ayrı.
+
+00:18:34.540 --> 00:18:36.740
+Speaker 1: Ayrı bir numarası var.
+
+00:18:37.400 --> 00:18:38.800
+Speaker 1: Tablosu da ayrı.
+
+00:18:41.060 --> 00:18:44.160
+Speaker 1: Birbirlerine base ref ile bağlılar.
+
+00:18:45.031 --> 00:18:47.711
+Speaker 2: Ben açıklama yapayım isterseniz.
+
+00:18:48.271 --> 00:18:58.711
+Speaker 2: Eğer ki müşteriniz depolarının uzaklıkları biraz önce Yıldırım bahsettiği gibi birden fazla uzakta depoları bulunması durumunda ne yapması lazım?
+
+00:18:58.871 --> 00:19:02.211
+Speaker 2: Malı taşımak için e-irsaliye düzenlemesi lazım.
+
+00:19:03.511 --> 00:19:08.871
+Speaker 2: e-irsaliye düzenleyeceğiniz durumda ara depo kullanmanız tavsiye edilir.
+
+00:19:09.791 --> 00:19:21.772
+Speaker 2: Çünkü Stock nakli taslağından E-İrsali'yi çıkarttığınızda o taslağı birisi gidip değiştirebilir, manipüle edebilir, başka şeyler yapabilir.
+
+00:19:22.092 --> 00:19:23.972
+Speaker 2: E-İrsali resmi bir belgedir.
+
+00:19:24.552 --> 00:19:25.452
+Speaker 2: Şimdi birinci şeyimiz bu.
+
+00:19:25.572 --> 00:19:26.632
+Speaker 2: İkinci şeyimiz ise şu.
+
+00:19:28.572 --> 00:19:36.612
+Speaker 2: Teslim tesellüm işleri altında, biraz önce Yıldırım'ın da bahsettiği gibi taslak esnasında da talep kabul ve benzeri işlemler yapılmaktadır.
+
+00:19:37.715 --> 00:19:47.435
+Speaker 2: taslak üzerinde talep kabul yapıldığında, şimdi diyelim ki ben merkezdeki bir kişiyim, cep depoya, üretim depoya 10 adet X'ten gönderiyorum.
+
+00:19:47.975 --> 00:19:52.255
+Speaker 2: Gönderdim, X'teki cep depodaki sahibi 8 tanesini kabul etti.
+
+00:19:52.795 --> 00:19:54.795
+Speaker 2: Bu iki tanesi merkez depoda kalır.
+
+00:19:55.735 --> 00:19:56.255
+Speaker 2: Gitmez.
+
+00:19:56.835 --> 00:19:57.735
+Speaker 2: Ne demektir bu?
+
+00:19:58.215 --> 00:20:03.755
+Speaker 2: Merkez depodaki depo sorumlusu genel stokların sahibi anlamına gelir.
+
+00:20:04.155 --> 00:20:05.795
+Speaker 2: Yani kontrol mekanizması odur.
+
+00:20:07.010 --> 00:20:08.870
+Speaker 2: adamı kendini kontrol etmeye bırakırsınız.
+
+00:20:09.050 --> 00:20:26.790
+Speaker 2: Fakat eğer bir şirkette bir stok yöneticisi var ise depocudan başka satın almacıdır başka bir şeydir var ise ara depo kullanmanız tavsiye edilir ki satın almacıya da şunu dersiniz haftada bir ara depoya gir bak kimin gönderdiğini kim az kabul etmiş.
+
+00:20:27.090 --> 00:20:35.570
+Speaker 2: Çünkü bu ara depoda bu sefer stoklar kalacak ve her iki depocuyu da yanına çağıracak arkadaşlar sayımlarınızda bir sıkıntı mı var?
+
+00:20:36.490 --> 00:20:39.710
+Speaker 2: Biriniz 5 çıkıyor, biriniz 3 alıyor ve bu 3 defadır oluyor.
+
+00:20:39.850 --> 00:20:40.030
+Speaker 1: Niye?
+
+00:20:40.810 --> 00:20:44.690
+Speaker 2: Sorusunun sorabileceği tek yol ara depodur.
+
+00:20:45.630 --> 00:20:46.170
+Speaker 2: Tamam?
+
+00:20:47.610 --> 00:20:48.810
+Speaker 1: Evet, bu da önemli.
+
+00:20:49.650 --> 00:20:55.990
+Speaker 1: Yani farkları görmek için çünkü direkt belge oluşturacağınız için burada şey yapma şansınız kalmıyor.
+
+00:20:56.430 --> 00:21:04.350
+Speaker 1: Aradaki farkı burada elemanlara güven ya da şirket içerisindeki birbirleri arasındaki konuşmaya bırakıyorsunuz.
+
+00:21:04.390 --> 00:21:05.770
+Speaker 1: Sisteme bırakmıyorsunuz.
+
+00:21:06.511 --> 00:21:08.531
+Speaker 1: buradaki farkı burası da önemli.
+
+00:21:09.571 --> 00:21:09.831
+Speaker 2: Tamam.
+
+00:21:10.231 --> 00:21:11.451
+Speaker 1: Ara depo kullanımında.
+
+00:21:12.151 --> 00:21:14.251
+Speaker 1: Yani normalde bu işlem neyle olur?
+
+00:21:14.591 --> 00:21:15.591
+Speaker 1: Onu söyleyeyim bu arada.
+
+00:21:15.811 --> 00:21:18.151
+Speaker 1: Yani standartta neyle yapılması lazım?
+
+00:21:18.751 --> 00:21:20.151
+Speaker 1: Ara depoyla yapılması lazım.
+
+00:21:21.531 --> 00:21:26.511
+Speaker 1: Yani fiiliyatta çünkü bir ara depo kullanımı gerektiren bir işlemdir transfer.
+
+00:21:27.191 --> 00:21:33.571
+Speaker 1: Iıı uzak mesafede yakın mesafede olsa aslında ara depo kullanmak ııı daha mantıklıdır.
+
+00:21:33.651 --> 00:21:37.868
+Speaker 1: Burada Ara depo kullanmamak işin kısa yolu olduğunu unutmayın.
+
+00:21:38.508 --> 00:21:49.888
+Speaker 1: Yani burada arada kimseye malı çalmayacağını, bu varsayımlar altında yapıldığını, biraz daha işlemleri kısaltmak, hata olasılığını azaltmak.
+
+00:21:49.968 --> 00:22:02.368
+Speaker 1: Çünkü biliyorsunuz ne kadar işlemi grift yaparsanız, ne kadar çok belge oluşturursanız, ne kadar çok entegrasyon yaparsanız, otomatikleştirme yaparsanız, çünkü burada ara depoyu kullanıcı hiç görmüyor ve kullanmıyor.
+
+00:22:03.802 --> 00:22:05.222
+Speaker 1: tamamen sistem kullanıyor.
+
+00:22:05.882 --> 00:22:12.402
+Speaker 1: Bunu ne kadar sisteme yüklerseniz otomatikleştirmeyi, hata çıkma olasılığı da o kadar artacaktır.
+
+00:22:12.662 --> 00:22:20.362
+Speaker 1: Yani bir kayıdın olmaması, otik kayıdın sisteme akmaması gibi entegrasyonsal hatalar yaşanabilir.
+
+00:22:21.042 --> 00:22:25.762
+Speaker 1: Ama bu gene de orijinal işi değiştirmek anlamına gelmiyor.
+
+00:22:26.762 --> 00:22:30.862
+Speaker 1: Olabildiğince ara depo kullanmakta yarar var, fayda var.
+
+00:22:31.222 --> 00:22:33.182
+Speaker 1: Ama burada da Fatih'in dediği şey önemli.
+
+00:22:33.738 --> 00:22:40.418
+Speaker 1: şirketin bir kontrol yapısı o ara depoyu kontrol edebilen bir yapının olması lazım.
+
+00:22:41.038 --> 00:22:43.678
+Speaker 1: Olmaması bütün suçu bize bırakan bir şey.
+
+00:22:44.358 --> 00:22:47.758
+Speaker 1: Ondan sonra ara depoda ürünler kalır.
+
+00:22:48.498 --> 00:22:49.898
+Speaker 1: O da bir tutarsızlık olur.
+
+00:22:50.098 --> 00:22:52.438
+Speaker 1: Sayımda bunu şirket dikkate etmez.
+
+00:22:52.998 --> 00:22:55.958
+Speaker 1: Gibi gibi eee komplikasyonları da var.
+
+00:22:56.098 --> 00:22:57.878
+Speaker 1: Bu da ona çok dikkat etmeniz lazım.
+
+00:22:57.998 --> 00:23:10.868
+Speaker 1: Yani şirketin ayrı bir kontrol Departmanı ayrı bir kontrol yöneticisi depoların üzerinde duran depoda wifi işlemi yapmayan insan var mıya bakmak lazım.
+
+00:23:11.448 --> 00:23:16.168
+Speaker 1: Eğer firma size diyorsa ki bunu yapan kişiler kontrol eder emin olun edemez.
+
+00:23:17.208 --> 00:23:23.248
+Speaker 1: Çünkü yapan kişiler kontrol edecekse aslında ara depo kullanmamak daha doğru.
+
+00:23:24.148 --> 00:23:34.696
+Speaker 1: Çünkü oradaki istenen şey yapan kişilerin kontrol etmesi orada talep edilen, sistem tarafından talep edilen şey, yapan kişinin bu işlemleri kontrol etmesi.
+
+00:23:34.776 --> 00:23:35.276
+Speaker 1: Ne demek bu?
+
+00:23:35.596 --> 00:23:47.596
+Speaker 1: Öbür taraf eksik kaldıysa, yapan kişi oraya 10 yerine 8 giriyorsa, gidip merkezdeki adama da kontrol eden bu arkadaşlar yapan kişiler, merkezdeki adama da bildirmesi demek.
+
+00:23:49.496 --> 00:23:57.176
+Speaker 1: Kendileri o bildirimleri yapıp, haber verip, bak böyle oldu sen 10 göndermişsin ama buradan 8 çıktı diyebilmesi gerekiyor.
+
+00:23:57.944 --> 00:23:59.984
+Speaker 1: yapan kişilerin kontrolü bu anlama geliyor.
+
+00:24:01.424 --> 00:24:13.864
+Speaker 1: Ama burada arada bir kontrol mekanizması varsa, yeğe kişisi varsa, o yeğe kişisinin ikiyi görüp, kardeşim sen 10 göndermişsin, sen de 8 almışsın, bu 2 nerede?
+
+00:24:14.644 --> 00:24:15.504
+Speaker 1: 2'yi ne yaptınız?
+
+00:24:15.784 --> 00:24:16.804
+Speaker 1: Kim hata yaptı?
+
+00:24:17.784 --> 00:24:19.984
+Speaker 1: ...yı araştıran birinin olması lazım.
+
+00:24:23.044 --> 00:24:30.227
+Speaker 1: Bu yapı varsa aradepo kullanmanız, bizim açımızdan daha güvenli.
+
+00:24:31.427 --> 00:24:38.247
+Speaker 1: Çünkü öteki türlü evet patron öyle dese de bunları yapanlar kontrol eder kardeşim bunlar zaten birbirlerine haber veriyor.
+
+00:24:39.147 --> 00:24:46.767
+Speaker 1: Biz genele ara depo kullanalım dediği zaman emin olun ara depoda ürün kaldığında bunu arkadaşlar görmüyor kiye gider olay.
+
+00:24:47.707 --> 00:24:59.097
+Speaker 1: Birbirleriyle konuşmayacaklar çünkü belli bir süre sonra birbirleriyle herhangi bir bağı olmadığı için bu arkadaşlar Birbirleriyle konuşma gereği duymayacaklar.
+
+00:24:59.437 --> 00:25:03.557
+Speaker 1: Burada talebe bağlı depo ekranındaki özellikler de bunlar.
+
+00:25:04.017 --> 00:25:09.857
+Speaker 1: Talepsiz depo ekranı kullandığınızda da nakil işlemini taslak olarak oluşturabilirsiniz.
+
+00:25:10.797 --> 00:25:13.097
+Speaker 1: İlla talebe bağlı gelmesi gerekmiyor.
+
+00:25:13.597 --> 00:25:15.577
+Speaker 1: Yani şu ikisi ekran farkından.
+
+00:25:17.217 --> 00:25:18.437
+Speaker 1: Kaynaklanıyor.
+
+00:25:19.577 --> 00:25:20.697
+Speaker 1: Ekranlar farklı.
+
+00:25:21.417 --> 00:25:24.737
+Speaker 1: Doğal olarak şurada da bir depo nakil talebe ekranımız var.
+
+00:25:26.960 --> 00:25:55.100
+Speaker 1: Ekranlar farklı olduğu için ama mantık aynı mantıklar aynı Deponak'ın talebinde seri parti seç bunu bilmiyorum Fatih bunu şey mi koyduk biz bunu ben mi koydurdum en son onu hatırlamıyorum ben parti seçimini atladım diye bir şey koydurdum yanlış hatırlamıyorsam talep ekranda seri ve parti seçimi zorunlu değil ya bunu tıkladığımızda burada bunu zorunlu oluyor olması lazım.
+
+00:25:55.120 --> 00:25:58.517
+Speaker 2: Rezervasyon yapıyor Yani bu partiyi göndereceksin.
+
+00:25:59.337 --> 00:26:01.477
+Speaker 1: Tamam, zorunluydu galiba öncesinde.
+
+00:26:01.617 --> 00:26:04.737
+Speaker 1: Bunun zorunlu olmaması için bunu koyduk diye hatırlıyorum.
+
+00:26:05.077 --> 00:26:09.597
+Speaker 2: Yani hayır, aslında talepte seçmiyorduk.
+
+00:26:10.357 --> 00:26:14.117
+Speaker 2: Baştan seçtik, sonra seçimi kaldırdık, ondan sonra parametreye çevirdik.
+
+00:26:14.237 --> 00:26:16.057
+Speaker 1: Sonra da parametrik yaptık bunu, evet.
+
+00:26:16.217 --> 00:26:21.057
+Speaker 1: Depo naklinde parti girişi yapabiliyorsunuz.
+
+00:26:21.517 --> 00:26:23.217
+Speaker 1: Parti girişsiz depo nakli oluyor.
+
+00:26:23.617 --> 00:26:25.997
+Speaker 1: İlk halinde parti girişi yapmak zorundaydı.
+
+00:26:26.613 --> 00:26:34.793
+Speaker 1: Ama bu talep olduğu için, talep noktasında bu parti girişini atlayabiliyorsunuz.
+
+00:26:34.853 --> 00:26:39.053
+Speaker 1: Yani normalde atlanarak açılır, sonrasında şey yapılır ama biz ters başlamıştık işe.
+
+00:26:39.733 --> 00:26:42.173
+Speaker 1: Bu da o işleme yarıyor.
+
+00:26:42.873 --> 00:26:46.713
+Speaker 1: Nakil işlemleri sırasında parti seçiği atlayabiliyorsunuz.
+
+00:26:46.813 --> 00:26:47.933
+Speaker 1: Ama dikkat edin, talep bu.
+
+00:26:48.993 --> 00:26:51.593
+Speaker 1: Depo naklinde böyle bir seçeneğiniz yok.
+
+00:26:51.813 --> 00:26:53.973
+Speaker 1: Sadece talepte dikkat ederseniz.
+
+00:26:57.578 --> 00:27:00.678
+Speaker 1: Siparişe bağlı teslimat filtresi.
+
+00:27:00.998 --> 00:27:03.218
+Speaker 1: Burada ben sipariş tarihini mi dikkate alayım?
+
+00:27:03.578 --> 00:27:05.278
+Speaker 1: Teslimat tarihini mi dikkate alayım?
+
+00:27:05.838 --> 00:27:13.978
+Speaker 1: Yani şuradaki bilersek satı siparişine şu kayıt tarihini mi dikkate alayım?
+
+00:27:14.158 --> 00:27:15.838
+Speaker 1: Teslimat tarihini mi dikkate alayım?
+
+00:27:16.138 --> 00:27:19.218
+Speaker 1: İsterse sisteme kayıt tarihini dikkate aldırabiliyorsunuz.
+
+00:27:19.358 --> 00:27:20.818
+Speaker 1: İsterse teslimat tarihini.
+
+00:27:21.318 --> 00:27:21.858
+Speaker 1: Bu niye var?
+
+00:27:22.018 --> 00:27:23.998
+Speaker 1: Müşteri teslimat tarihini kullanmayabilir.
+
+00:27:24.865 --> 00:27:29.245
+Speaker 1: Ben buradaki kayıt tarihini sipariş tarihi olarak görebilirim diyebilir.
+
+00:27:29.425 --> 00:27:30.245
+Speaker 1: Bir seçenek bu.
+
+00:27:30.445 --> 00:27:35.705
+Speaker 1: İkincisi, müşteri kendi içerisindeki konuşmalarını hep sipariş tarihi üzerinden yapıyordur.
+
+00:27:36.985 --> 00:27:40.385
+Speaker 1: Depoyla olan iletişimini de sipariş tarihi üzerinden kullanıyordur.
+
+00:27:40.885 --> 00:27:42.925
+Speaker 1: Onun için teslim tarihi önemli değildir.
+
+00:27:43.385 --> 00:27:48.885
+Speaker 1: Yani firmaların X tarihindeki siparişler, Y tarihindeki siparişler olarak bakıyordur.
+
+00:27:49.765 --> 00:27:55.854
+Speaker 1: Öyle bakıyorsa, Bu biraz kafa karıştırıcı terminal için.
+
+00:27:56.134 --> 00:27:58.074
+Speaker 1: Ama bu tabii şirketin yönetim şekli.
+
+00:27:58.134 --> 00:28:00.174
+Speaker 1: Burada da bir parametremiz var.
+
+00:28:02.134 --> 00:28:05.694
+Speaker 1: Satın alma siparişli mal girişi tarihi alanına aylık yönet.
+
+00:28:05.754 --> 00:28:06.354
+Speaker 1: Bunu bilmiyorum.
+
+00:28:06.834 --> 00:28:08.654
+Speaker 1: Bunu bilen varsa açıklayabilir mi?
+
+00:28:09.934 --> 00:28:11.534
+Speaker 1: Hiç kullanmadım.
+
+00:28:14.334 --> 00:28:17.934
+Speaker 2: Şöyle anlatayım ben sana.
+
+00:28:18.314 --> 00:28:22.514
+Speaker 2: Normalde bizim siparişe bağlı teslimat ekranımız var.
+
+00:28:23.168 --> 00:28:27.108
+Speaker 2: Adam siparişlerine bakıyor.
+
+00:28:27.248 --> 00:28:30.568
+Speaker 2: Ben bu siparişe baktığımda...
+
+00:28:30.568 --> 00:28:36.208
+Speaker 2: Oradaki gelen ilk hafta getiriyoruz ya biz ekrana, standartta, varsayılanda.
+
+00:28:36.288 --> 00:28:38.048
+Speaker 2: Bu gelen hafta...
+
+00:28:38.048 --> 00:28:42.888
+Speaker 2: SAP'deki sipariş tablosunda kayıt tarihine göre mi bir ver koşulu versin?
+
+00:28:43.568 --> 00:28:45.668
+Speaker 2: Teslimat tarihine göre mi ver koşulu versin?
+
+00:28:45.968 --> 00:28:47.588
+Speaker 2: Belge tarihine göre mi ver koşulu versin?
+
+00:28:47.688 --> 00:28:49.408
+Speaker 2: Gibi bir parametre aslında burası.
+
+00:28:50.810 --> 00:28:53.350
+Speaker 1: Onu nerede yönetiyorsun teslimat ve şey olduğunu.
+
+00:28:54.350 --> 00:28:58.230
+Speaker 1: Aylık yönetilmiş sadece bir ay mı yapıyor?
+
+00:28:58.370 --> 00:28:59.610
+Speaker 2: Ben üsttekini söylüyordum.
+
+00:28:59.690 --> 00:29:03.450
+Speaker 2: Oradakini de bugünden bir ay sonrasına kadar ver gibi.
+
+00:29:03.570 --> 00:29:06.650
+Speaker 1: Tamam normalde bir haftalık çalışıyor sadece.
+
+00:29:07.550 --> 00:29:11.370
+Speaker 1: satın alma siparişli mal giriş ekranında bunu aylık olarak önüne döküyor.
+
+00:29:11.370 --> 00:29:13.390
+Speaker 2: Yürüyüş Süt'te böyle bir ihtiyaç çıkmıştı.
+
+00:29:13.590 --> 00:29:19.130
+Speaker 2: Onlar çünkü çok ileri tarihlere üretim planlaması yaptıkları için öyle bir şey çıkartmıştık ortaya.
+
+00:29:19.210 --> 00:29:25.430
+Speaker 1: Bütün ayı görmek istediği için önündeki ekranda aylık yönettiği bir şeyimiz var.
+
+00:29:26.170 --> 00:29:29.770
+Speaker 1: İkincisi biraz daha basit satın alma siparişinde ürünü toplayıp otomatik bas.
+
+00:29:29.890 --> 00:29:31.510
+Speaker 1: Bildiğiniz gibi satın aldığınız zaman.
+
+00:29:34.415 --> 00:29:37.615
+Speaker 1: Hem parti seçiyorsunuz hem topla yapıyorsunuz.
+
+00:29:37.675 --> 00:29:43.015
+Speaker 1: Bu işlemlerin otomatik olması için tabi burada parti seç olmaması gerekiyor.
+
+00:29:43.895 --> 00:29:45.915
+Speaker 1: Partili ekrana gitmemesini sağlıyor.
+
+00:29:46.035 --> 00:29:48.755
+Speaker 1: Anladığım kadarıyla serili olan itemlerde.
+
+00:29:50.075 --> 00:29:52.855
+Speaker 1: İkinci bir ekran var.
+
+00:29:52.975 --> 00:29:56.155
+Speaker 1: Daha demin birazdan anlatırken göreceksiniz iç ekranlar var.
+
+00:29:56.295 --> 00:30:02.695
+Speaker 1: İç ekranlardan bir tanesini atlamak için bu satın alma yaparken serili ürünlerde.
+
+00:30:05.954 --> 00:30:07.454
+Speaker 1: Bunun tamamı çıkmamış.
+
+00:30:07.894 --> 00:30:10.394
+Speaker 1: Barcode, kalem kodu birlikte okuma.
+
+00:30:10.974 --> 00:30:18.614
+Speaker 1: Buna bastığınızda hem kalem kodu okutabiliyorsunuz hem barcode okutabiliyorsunuz diye anlıyorum okuma alanını kullanırken.
+
+00:30:18.734 --> 00:30:24.754
+Speaker 1: Barcode alanını hem kalem kodu olarak hem barcode olarak okutuyorsunuz.
+
+00:30:24.874 --> 00:30:27.434
+Speaker 1: Evet abi burada böyle oluyor olması lazım.
+
+00:30:27.534 --> 00:30:28.234
+Speaker 2: Ben de öyle hatırlıyorum.
+
+00:30:28.334 --> 00:30:30.454
+Speaker 2: Barcode yoksa kalem kodundan baz alıyorduk.
+
+00:30:30.854 --> 00:30:31.394
+Speaker 1: İkisini yerine.
+
+00:30:31.914 --> 00:30:34.674
+Speaker 1: Okuttuğunuz şey de kalem koduna dönüyor bakıyor.
+
+00:30:35.367 --> 00:30:38.427
+Speaker 1: Tabi bu öyle alanlar olması lazım.
+
+00:30:38.567 --> 00:30:40.647
+Speaker 1: Her alan için geçerli mi bilmiyorum.
+
+00:30:41.427 --> 00:30:43.247
+Speaker 1: Her ekranda geçerli mi onu da bilmiyorum.
+
+00:30:43.927 --> 00:30:46.347
+Speaker 1: Ana ekranlarda geçerlidir diye düşünüyorum Mustafa.
+
+00:30:47.287 --> 00:30:50.607
+Speaker 1: Bütün depo ekranlarında geçerli değildir diye düşünüyorum.
+
+00:30:52.527 --> 00:30:57.427
+Speaker 1: Ana satın alma karşılama ve satış karşılama da geçerlidir diye düşünüyorum.
+
+00:30:58.667 --> 00:31:01.887
+Speaker 1: Belki parti yapma ekranlarında da olabilir.
+
+00:31:04.527 --> 00:31:05.867
+Speaker 1: Ama işlevi o.
+
+00:31:06.307 --> 00:31:08.427
+Speaker 1: En azından bulunduğunuz ekranda denersiniz.
+
+00:31:08.667 --> 00:31:12.027
+Speaker 1: Bu tikli ise döner kalem kodundan bulunmaya çalışır.
+
+00:31:12.067 --> 00:31:17.227
+Speaker 1: Bar koddan bulamazsa yani okuttuğunuz şeyin kalem kodu olması gerekiyor bu durumda.
+
+00:31:18.487 --> 00:31:21.807
+Speaker 1: Tarih bazlı parti oluşturma.
+
+00:31:22.027 --> 00:31:32.247
+Speaker 1: Buna basarsanız satın alma sırasında otomatik oluştur dediğinizde günün tarihini yazar ve yanına bir indeks atar.
+
+00:31:32.407 --> 00:31:33.667
+Speaker 1: 1-2-3 diye.
+
+00:31:34.075 --> 00:31:37.195
+Speaker 1: Bu 1, 2, 3'ü de kalem kodu bazda atar.
+
+00:31:37.715 --> 00:31:41.895
+Speaker 1: Yani X ürününü okuttunuz, 1 diye attı.
+
+00:31:42.455 --> 00:31:46.115
+Speaker 1: Y ürünü geldi, satın almada onun mal kabulünü yapıyorsunuz.
+
+00:31:46.315 --> 00:31:48.395
+Speaker 1: Onu okuttuğunuzda gene 1 diye atar.
+
+00:31:49.155 --> 00:31:53.095
+Speaker 1: İkinci bir Y ürünü geldi, aynı ürün koduyla gün içerisinde.
+
+00:31:53.515 --> 00:31:56.015
+Speaker 1: Bu sefer tarihi atar, yanına 2'yi atar.
+
+00:31:56.835 --> 00:31:59.655
+Speaker 1: O gün gelen ikinci aynı ürün diye.
+
+00:32:00.055 --> 00:32:02.675
+Speaker 1: Yani bu o gün içerisindeki 1, 2, 3'ü saymaz.
+
+00:32:03.809 --> 00:32:09.729
+Speaker 1: O gün içerisinde o üründen kaç tane geldiyse o kadar atar.
+
+00:32:09.869 --> 00:32:18.489
+Speaker 1: Adet olarak değil kaç sefer satın alma mal kabulü yapıldıysa size bir indeks oluşturur.
+
+00:32:18.749 --> 00:32:22.369
+Speaker 1: Bunu ben genelde şey içinde kullanıyorum.
+
+00:32:22.969 --> 00:32:30.509
+Speaker 1: Bana soran şeylerde son kullanma tarihini belirlemek için burayı referans alabilirsiniz diyorum.
+
+00:32:30.669 --> 00:32:39.895
+Speaker 1: Yani bir ürün 3 aysa 5 aysa ya da son kullanma tarihi takip etmek istiyorlarsa burayı kullandırmıyorum o zaman otomatik girmeyin.
+
+00:32:40.175 --> 00:32:45.955
+Speaker 1: Aldığınız ürünün son kullanma tarihini buraya girin diye kullandırabiliyorum.
+
+00:32:46.655 --> 00:32:47.495
+Speaker 1: Yani burada.
+
+00:32:48.495 --> 00:32:55.555
+Speaker 1: Partiyi nasıl kullandırdığınızla bağlı olarak değişiyor ama hızlı geçmelerini istiyorsanız bunu kullanmakta fayda var.
+
+00:32:55.695 --> 00:33:05.355
+Speaker 1: Kendilerine yazmayı bırakmaktansa ya da herhangi bir parti belirleme işlemi yapmaktansa yani defaultta bunu kullandırmayı teşvik etmek gerekiyor.
+
+00:33:06.915 --> 00:33:10.055
+Speaker 1: Uygulama yetki şifresi bunu hiç kullanmadım.
+
+00:33:10.835 --> 00:33:11.215
+Speaker 1: Bilmiyorum.
+
+00:33:13.535 --> 00:33:14.355
+Speaker 1: Oyu bilen var mı?
+
+00:33:14.955 --> 00:33:15.835
+Speaker 1: Ne için kullanıyoruz?
+
+00:33:16.155 --> 00:33:19.095
+Speaker 1: Fatih sen bilebilirsin çok eskidir diye düşünüyorum.
+
+00:33:19.615 --> 00:33:24.735
+Speaker 1: Terminali açarken bir şifre mi soruyor?
+
+00:33:25.315 --> 00:33:27.235
+Speaker 1: Mikrofonun kapalı da şu an.
+
+00:33:28.066 --> 00:33:39.086
+Speaker 2: Bu depo çalışma tipindeki versiyonlardan dolayı olan ya ekran ya depo yetkilendirme ekranları var ya.
+
+00:33:39.706 --> 00:33:43.046
+Speaker 2: Bazı arkadaşlar oraya fazlaca giriş yapıyorlardı.
+
+00:33:43.946 --> 00:33:44.886
+Speaker 1: Orayı bozuyorlardı.
+
+00:33:45.406 --> 00:33:49.686
+Speaker 2: Biz de orayı bir yetkilendirme için bir şeyler yapmıştık.
+
+00:33:50.866 --> 00:33:55.686
+Speaker 2: Kullanabiliyor muyuz bilmiyorum açıkçası bir yerde öyle bir yaptık girmesinler.
+
+00:33:57.209 --> 00:34:04.889
+Speaker 2: Evet, yani normalde uygulamanın kendi içindeki o yetki parametreleri ekranlarına girmesinler diye bir şeyler yapmıştık.
+
+00:34:05.009 --> 00:34:11.748
+Speaker 2: Sonra orayı bir veritabanının şifresi için de kullandık hatırladığım kadarıyla ama bunu en iyi Cihan'la Hakan verir.
+
+00:34:12.349 --> 00:34:12.629
+Speaker 1: Tamam.
+
+00:34:13.289 --> 00:34:15.569
+Speaker 2: Ama şu an kullandığımız bir yer yok diyebiliyorum.
+
+00:34:15.589 --> 00:34:18.989
+Speaker 1: Tamam, burası yani şu an için bizim bilmemize gerek yok.
+
+00:34:19.129 --> 00:34:24.228
+Speaker 1: Büyük bir ihtimalle öyle bir ihtiyaç da olduğunda yeniden planlarız gibi geliyor bu durumda.
+
+00:34:24.708 --> 00:34:25.829
+Speaker 1: Buradaki işlevi.
+
+00:34:27.533 --> 00:34:29.172
+Speaker 1: Yeniden planlama yaparız.
+
+00:34:29.393 --> 00:34:31.572
+Speaker 1: Ürün sorgulamada fiyat göster.
+
+00:34:32.773 --> 00:34:37.553
+Speaker 1: Bu ürün sorgulama ekranları için sorgulandığında fiyat görmeleri için yapılmış bir şey.
+
+00:34:37.733 --> 00:34:41.152
+Speaker 1: Hangi fiyat listesine bakacağını seçmesini bekliyoruz.
+
+00:34:42.393 --> 00:34:44.373
+Speaker 1: Eee.
+
+00:34:44.813 --> 00:34:46.172
+Speaker 1: Şube seçimi yapılsın.
+
+00:34:46.353 --> 00:34:49.952
+Speaker 1: Şubeli çalışan firmalar için şube seçimi O.
+
+00:34:49.952 --> 00:34:53.391
+Speaker 2: Iki seçenek daha çok zivilink için yapılmış bir uygulama.
+
+00:34:53.552 --> 00:34:56.391
+Speaker 2: Yani git ürünün barcode'unu okut, ürünün barcode'unu okut.
+
+00:34:56.512 --> 00:34:59.712
+Speaker 2: Hangi depoda ne var ve fiyatı ne diye.
+
+00:34:59.792 --> 00:35:01.492
+Speaker 1: Depoda buna ihtiyaç olmaz ama.
+
+00:35:02.252 --> 00:35:06.032
+Speaker 2: Müşterinin yanındayken direkt konuşabilmek anlamında yapılan bir şey o.
+
+00:35:06.572 --> 00:35:08.372
+Speaker 1: Bu daha çok şey operasyon olmuş.
+
+00:35:09.332 --> 00:35:11.092
+Speaker 2: Tabii çünkü orada da kullanıyoruz biz.
+
+00:35:11.152 --> 00:35:13.792
+Speaker 2: Zivilink'in mağazalarında da şu an bizim temlerimiz kullanılıyor.
+
+00:35:15.532 --> 00:35:17.372
+Speaker 1: Bu güzel bir özellik ama.
+
+00:35:18.479 --> 00:35:33.039
+Speaker 1: talimin depo anlattığım kullanımların dışında nevelerde kullanabilirize de güzel bir örnek oldu aslında ben terminali anlattığım işlemler dışında burada da satış noktalarında da bu markette de kullanılabilir.
+
+00:35:33.379 --> 00:35:36.399
+Speaker 1: Biz büyük ihtimalle ekurda bunu kullanacağız.
+
+00:35:36.519 --> 00:35:37.479
+Speaker 1: Buna benzer bir yapıyı.
+
+00:35:38.519 --> 00:35:39.999
+Speaker 1: Mesela.
+
+00:35:41.399 --> 00:35:59.125
+Speaker 1: Birin kullanımında ölçebilim kodunu göster adını göster işte bazıları kg olarak görmek istiyor bazıları kilogram olarak görmek istiyor bazıları adet olarak görmek istiyor bazıları ad olarak görmek istiyor herhalde müşterinin bir tanesi buna takılmış diye düşünüyorum.
+
+00:35:59.845 --> 00:36:04.545
+Speaker 1: O yüzden buraya bir parametre konmuş yanlışsam düzel Fatih.
+
+00:36:11.585 --> 00:36:14.365
+Speaker 1: Fatih'de yine mikrofon, Fatih mikrofonu açık tut istersen.
+
+00:36:15.065 --> 00:36:16.125
+Speaker 2: Ben hep açık tutayım burayı.
+
+00:36:16.625 --> 00:36:22.325
+Speaker 2: Normalde bir müşterimiz normal ölçü birimleri kodunu biz biliyorsunuz gibi ölçü birimleri kodu gibi yazarız.
+
+00:36:22.445 --> 00:36:25.005
+Speaker 2: Kilogram yazarız, adet yazarız, şey yazarız.
+
+00:36:25.825 --> 00:36:29.865
+Speaker 2: Bu arkadaşlar ölçü birimlerini açarken 1, 2, 3, 4, 5 diye açmışlar.
+
+00:36:30.785 --> 00:36:31.945
+Speaker 1: Ha tamam okey.
+
+00:36:32.165 --> 00:36:35.525
+Speaker 2: Hani kodu yerine adı gelsin şeyi böyle.
+
+00:36:39.563 --> 00:36:44.363
+Speaker 2: Yarın öbür gün başımıza gelirse bir daha yapmayalım diye böyle bir şey yaptık.
+
+00:36:47.543 --> 00:36:54.823
+Speaker 1: Tahmin ettim de onu tahmin etmemiştim bak 1-2-3 açmışlar diye.
+
+00:36:55.083 --> 00:36:57.303
+Speaker 1: Gerçi artık açma ihtimalleri Türkiye'de yok da.
+
+00:36:58.643 --> 00:36:59.483
+Speaker 2: Var var yapan var.
+
+00:37:00.983 --> 00:37:02.183
+Speaker 1: E-dönüşüm de patlıyor o zaman.
+
+00:37:02.743 --> 00:37:03.783
+Speaker 1: Hala yapan var mı?
+
+00:37:04.123 --> 00:37:04.723
+Speaker 1: Patlamaz.
+
+00:37:05.003 --> 00:37:07.103
+Speaker 1: Gerçi E-dönüşüme de parametre koyduk değil mi?
+
+00:37:07.203 --> 00:37:08.083
+Speaker 1: O da parametre var.
+
+00:37:08.875 --> 00:37:10.115
+Speaker 1: O da parametreden çekiyor.
+
+00:37:10.255 --> 00:37:10.675
+Speaker 1: Eşleştirme.
+
+00:37:10.675 --> 00:37:12.655
+Speaker 2: Bunlar hep öğrenilmiş şaretsizlikler.
+
+00:37:14.575 --> 00:37:18.895
+Speaker 1: Çekme listesi parametreleri buraya Akkon kullanıyordu diye düşünüyorum.
+
+00:37:19.815 --> 00:37:23.415
+Speaker 1: Çekme listesini bir tek Akkon kullanıyor bildiğim kadarıyla.
+
+00:37:23.535 --> 00:37:24.095
+Speaker 2: Akkon mu?
+
+00:37:25.515 --> 00:37:26.375
+Speaker 1: Akkon değil miydi?
+
+00:37:26.775 --> 00:37:27.375
+Speaker 1: Anatolya.
+
+00:37:27.615 --> 00:37:28.275
+Speaker 1: Anatolya.
+
+00:37:28.335 --> 00:37:28.875
+Speaker 1: Anatolya.
+
+00:37:29.355 --> 00:37:29.775
+Speaker 1: Anatolya.
+
+00:37:30.315 --> 00:37:31.415
+Speaker 1: Pardon Anatolya.
+
+00:37:32.415 --> 00:37:34.335
+Speaker 1: Bir tek onlar kullanıyor diye biliyorum.
+
+00:37:35.675 --> 00:37:37.395
+Speaker 1: Akkon anca kimi çekebilir?
+
+00:37:38.558 --> 00:37:41.378
+Speaker 1: O yüzden burayı geçiyorum diye düşünüyorum.
+
+00:37:41.518 --> 00:37:43.398
+Speaker 1: Çünkü onların özel bir ekranı orası.
+
+00:37:45.338 --> 00:37:45.738
+Speaker 1: Evet.
+
+00:37:47.938 --> 00:37:50.878
+Speaker 1: Palet yapmada depo seçimini aktifleştir.
+
+00:37:51.798 --> 00:37:53.938
+Speaker 1: Burası da onlara ait.
+
+00:37:55.118 --> 00:37:57.458
+Speaker 1: Burayı başka yerde kullandık mı hatırlamıyorum.
+
+00:37:58.598 --> 00:38:01.018
+Speaker 1: Mal giriş çıkış nedeni zorunlu.
+
+00:38:02.058 --> 00:38:04.158
+Speaker 1: Burada mal giriş ve çıkış ekranlarımız var.
+
+00:38:04.278 --> 00:38:06.338
+Speaker 1: Direkt mal giriş ve çıkış yapabileceği.
+
+00:38:07.077 --> 00:38:13.477
+Speaker 1: o ekranlardaki açıklama alanının zorunlu olup olmamasını seçebiliyorsunuz.
+
+00:38:14.737 --> 00:38:22.217
+Speaker 1: Palet ara depo aynı şekilde palet transferi yaparken burada ara depo kullanımı bu stok deposu daha demin söyledik.
+
+00:38:22.697 --> 00:38:26.277
+Speaker 1: Bu da stok ara deponun hangisi olacağını buradan tanımlıyorsunuz.
+
+00:38:26.817 --> 00:38:29.177
+Speaker 1: Palet transferinde taslak belge oluştur.
+
+00:38:29.277 --> 00:38:32.797
+Speaker 1: Gene bu turdaki transfer gibi aynı mantığı var.
+
+00:38:33.857 --> 00:38:36.637
+Speaker 1: Aynı şeyi düşünebilirsiniz burada da yapıyı.
+
+00:38:37.553 --> 00:38:40.113
+Speaker 1: satın alma siparişinde taslak belge oluştur.
+
+00:38:40.573 --> 00:38:52.153
+Speaker 1: Bu da satışın karşılığı aslında satın almada sipariş noktasında satış siparişini koymamışız ama ben aşağılarda karşılama için koydum.
+
+00:38:52.313 --> 00:38:56.993
+Speaker 1: Satış kısmı için burada yok sadece satın alma için oluşturulmuş.
+
+00:38:58.333 --> 00:39:02.753
+Speaker 1: Nakil muhatap koduyla muhatap kodu ne bunu bilmiyorum.
+
+00:39:07.253 --> 00:39:14.778
+Speaker 1: Bu gene e-dönüşü e-irsaliye çıkartmak için otomatik bir muhatap kodu kendisini yazmak için mi yapılmış firmanın kendisini yazmak için?
+
+00:39:14.778 --> 00:39:27.973
+Speaker 2: Evet genelde burası da Martı için kurgulanan bir işlemlerden bir tanesi stok talebi stok işlemi üzerinde her zaman bu cariyi getir ki ben irsaliyede kullanayım bunu.
+
+00:39:29.473 --> 00:39:36.573
+Speaker 1: Yani şeyde çünkü SAP biliyorsunuz stok makinelerinde boş olmasına izin veriyor şu alanın.
+
+00:39:37.662 --> 00:39:38.882
+Speaker 1: stok işlemleri stok.
+
+00:39:40.542 --> 00:39:55.322
+Speaker 1: Evet o yüzden burası yani şu alanı boş olarak hareket edebiliyorsunuz ama irisaliye ya da herhangi bir çıktı alacağınız zaman buna ihtiyaç duyduğunuzdan dolayı buranın boş geçmemesi için koyulmuş gibi duruyor.
+
+00:39:55.942 --> 00:39:59.802
+Speaker 1: Evet aynen öyle deponaklı yeri bunu da bilmiyorum.
+
+00:40:01.362 --> 00:40:02.902
+Speaker 1: Ara depodan farkı nedir?
+
+00:40:04.702 --> 00:40:05.862
+Speaker 1: Belgesel yaptığında.
+
+00:40:07.379 --> 00:40:08.699
+Speaker 1: Bir zorunluluk olsun diye mi?
+
+00:40:09.099 --> 00:40:09.739
+Speaker 2: Bu da şey.
+
+00:40:10.779 --> 00:40:15.299
+Speaker 2: Stock nakli depo yeri yani raf.
+
+00:40:16.239 --> 00:40:17.699
+Speaker 2: Varsayılan olarak bu rafa.
+
+00:40:17.839 --> 00:40:23.479
+Speaker 1: Varsayılan olarak ara depo yeri aslında bu da olmuş oluyor.
+
+00:40:24.039 --> 00:40:25.599
+Speaker 1: Tamam depo yeriymiş burada.
+
+00:40:27.019 --> 00:40:27.719
+Speaker 1: Fark anlamadım.
+
+00:40:29.219 --> 00:40:31.379
+Speaker 1: Depo sayımına biz parametreler ekledik.
+
+00:40:32.303 --> 00:40:36.083
+Speaker 1: Depo sayımında sayılan miktar ekranını otomatik aç.
+
+00:40:36.163 --> 00:40:41.483
+Speaker 1: Depo sayımı yaparken okuttuğunuzda miktar ekranı otomatik gelsin diye bu.
+
+00:40:42.863 --> 00:40:45.683
+Speaker 1: Depo sayımında say butonuna otomatik bas.
+
+00:40:46.103 --> 00:40:51.083
+Speaker 1: Bu da bir okutuyorsanız, tek okutuyorsanız.
+
+00:40:51.163 --> 00:40:57.703
+Speaker 1: Bir miktarla direkt okutmanızı yarıyor.
+
+00:40:58.543 --> 00:41:00.583
+Speaker 1: Depo sayımında çoklu sayarı bilmiyorum.
+
+00:41:00.943 --> 00:41:01.483
+Speaker 1: Bu nedir?
+
+00:41:05.783 --> 00:41:06.923
+Speaker 1: Bunu biliyor musun Fatih?
+
+00:41:09.003 --> 00:41:12.583
+Speaker 1: Kapattın mikrofonu açmak yerine büyük ihtimalle.
+
+00:41:13.943 --> 00:41:16.503
+Speaker 2: Onu birazdan anlatsam olur mu?
+
+00:41:16.663 --> 00:41:17.323
+Speaker 2: Bir telefon çalıyor.
+
+00:41:18.423 --> 00:41:23.803
+Speaker 1: Yani depo sayım ekranına geldiğimizde bunlara bakarız.
+
+00:41:23.903 --> 00:41:27.343
+Speaker 1: Kim anlatacaksa da aklında tutsun.
+
+00:41:28.003 --> 00:41:30.563
+Speaker 1: Burada 2 tane seçeneğimiz var sayımda.
+
+00:41:31.103 --> 00:41:32.623
+Speaker 1: Sayımı şöyle yapıyorsunuz.
+
+00:41:32.663 --> 00:41:34.663
+Speaker 1: Ekranı açtığınızda okutuyorsunuz.
+
+00:41:35.045 --> 00:41:37.025
+Speaker 1: Okuttuktan sonra miktar giriyorsunuz.
+
+00:41:37.125 --> 00:41:39.225
+Speaker 1: Miktar girdikten sonra saya basıyorsunuz.
+
+00:41:39.625 --> 00:41:40.885
+Speaker 1: Böyle bir işlemi var.
+
+00:41:41.725 --> 00:41:43.085
+Speaker 1: Bir iç ekrana gidiyorsunuz.
+
+00:41:43.145 --> 00:41:44.245
+Speaker 1: Miktar giriyorsunuz.
+
+00:41:44.485 --> 00:41:46.065
+Speaker 1: O iç ekranda saya basıyorsunuz.
+
+00:41:46.145 --> 00:41:48.305
+Speaker 1: Tekrar ana ekrana geri dönüyorsunuz.
+
+00:41:49.125 --> 00:41:53.385
+Speaker 1: Bu iç ekranlara girip girmeme yani bu işlemin normali bu.
+
+00:41:53.825 --> 00:41:54.305
+Speaker 1: Manual'i bu.
+
+00:41:55.085 --> 00:42:03.965
+Speaker 1: Eğer miktar ekranını otomatik aç derseniz o miktar kutusuna kendisi otomatik basmış ve önünüze miktar giriş ekranını getirmiş oluyor.
+
+00:42:05.217 --> 00:42:10.257
+Speaker 1: Depo sayımında say butonuna bas dediğiniz zaman bu sefer miktar butonuna gidip basmıyor.
+
+00:42:10.777 --> 00:42:13.697
+Speaker 1: Yani doğal olarak miktar her zaman defaultta 1.
+
+00:42:14.377 --> 00:42:19.117
+Speaker 1: 1 adetle okuttuğunuz anda 1 adet ürünü listeye eklemiş oluyor.
+
+00:42:21.217 --> 00:42:32.677
+Speaker 1: Parti seçimini atla da şu eğer parti siz saymak istiyorsanız partili bir ürünse direkt okuttuktan sonra miktar girdikten sonra sistem bir de size hangi partiden diye soruyor.
+
+00:42:34.259 --> 00:42:37.659
+Speaker 1: Okuyorsun ama hangi partiden okudun bunu diye soruyor.
+
+00:42:38.379 --> 00:42:42.259
+Speaker 1: Sayım işlemlerinde partili sayım her zaman yapılmaz.
+
+00:42:42.939 --> 00:42:43.699
+Speaker 1: Yapılmıyor da.
+
+00:42:44.239 --> 00:42:49.919
+Speaker 1: O yüzden bu parti seçimini atlamasına sebep veriyor.
+
+00:42:50.679 --> 00:42:52.079
+Speaker 1: Bu sadece sayım amaçlı.
+
+00:42:52.839 --> 00:43:03.959
+Speaker 1: Daha sonra bu sayım işleminde eğer partili ise bunu sistemden karşılaştırma yapıp aradaki farkı atacağınız zaman orada parti girişlerini tekrardan elle doldurmanız lazım.
+
+00:43:04.432 --> 00:43:08.232
+Speaker 1: Bu kendi iç, ana bir sayımınız için kullanılacak bir şey.
+
+00:43:08.532 --> 00:43:11.932
+Speaker 1: Yoksa sistemde partiyi yine seçmek zorundasınız.
+
+00:43:12.932 --> 00:43:20.292
+Speaker 1: Eğer bunu şeyde kullanacaksanız, sayım farklarını atmada kullanacaksanız parti seçimini yapmak zorundasınız.
+
+00:43:20.452 --> 00:43:27.812
+Speaker 1: Ama sayım yapıp sadece miktarları kontrol amaçlı yapıyorsanız parti seçimini atlatabilirsiniz müşteriye.
+
+00:43:30.092 --> 00:43:34.072
+Speaker 1: Burada da koşulları var tabi parametrik olmasının nedeni var.
+
+00:43:35.026 --> 00:43:38.446
+Speaker 1: Orijinal belgeden karşılamaya izin verme.
+
+00:43:39.486 --> 00:43:45.326
+Speaker 1: Bunları tıkladığınız zaman karşılama ekranlarında göreceksiniz.
+
+00:43:45.806 --> 00:43:48.186
+Speaker 1: Bunlar ekrana düşmeyecek.
+
+00:43:48.566 --> 00:43:54.866
+Speaker 1: Satın alma siparişi satış siparişi satın alma iade 3 tane karşılama ekranımız var.
+
+00:43:54.966 --> 00:44:07.051
+Speaker 1: Bizim karşılama yapabildiğiniz 3 ana ekran bu bahsettiğimiz 5 tane stepten karşılamayla çalıştığınızda ara ekran oluşturduğunuzda 3 tane ekrandan ara ekran oluşturabiliyorsunuz.
+
+00:44:07.391 --> 00:44:12.311
+Speaker 1: Burada ikisini beraber kullansın mı kullanmasın mı aslında sorusu.
+
+00:44:14.091 --> 00:44:18.471
+Speaker 1: Bunları kaldırdığınızda satın alma siparişleri de gözükür.
+
+00:44:18.751 --> 00:44:22.891
+Speaker 1: Satın alma karşılama siparişinden yapılan şeyler de gözükür.
+
+00:44:23.011 --> 00:44:24.971
+Speaker 1: İkisi birden aynı anda kullanılabilir.
+
+00:44:25.271 --> 00:44:27.531
+Speaker 1: Yapıyor sistemi.
+
+00:44:29.171 --> 00:44:46.900
+Speaker 1: Bu da Nakil için taslak oluştuğu ve satış için taslak oluştuğu da aslında şu yukarıdaki ara depo kullanı işleminin satın alma karşılama ve satış ekran satış karşılama ekranlarına da uygulanmış hali.
+
+00:44:47.500 --> 00:45:09.265
+Speaker 1: Bunlar belge bazlı fark ettiyseniz bu satın alma siparişi ekranı için buradaki talebe bağlı depo nakli ekranı için burada depo nakli talebi için Burada talepsiz depo nakli ekranı için, birden fazla ekranımız olduğu için, her ekran için bu seçeneği belirlemeniz gerekiyor.
+
+00:45:09.685 --> 00:45:10.985
+Speaker 1: Nasıl yapılacağını.
+
+00:45:11.725 --> 00:45:16.145
+Speaker 1: Ara depo kullanıp kullanılmama işlemi aslında bu.
+
+00:45:17.265 --> 00:45:19.265
+Speaker 1: Bitti.
+
+00:45:19.705 --> 00:45:20.525
+Speaker 1: Bütün hepsi bu kadar.
+
+00:45:20.885 --> 00:45:22.005
+Speaker 1: Hepsinin üzerinden geçtik.
+
+00:45:22.085 --> 00:45:23.225
+Speaker 1: Parametrelerimiz bunlar.
+
+00:45:23.385 --> 00:45:25.225
+Speaker 1: Parametrik olan kısımlar bunlar.
+
+00:45:26.045 --> 00:45:29.245
+Speaker 1: İkinci işlemimiz ne?
+
+00:45:30.113 --> 00:45:31.973
+Speaker 1: Burada şeyi söylemek lazım.
+
+00:45:32.633 --> 00:45:34.793
+Speaker 1: UVT'de olduğu gibi.
+
+00:45:35.913 --> 00:45:37.913
+Speaker 1: Burada da.
+
+00:45:38.153 --> 00:45:41.293
+Speaker 1: Kullanıcılar nasıl belirleniyor?
+
+00:45:41.973 --> 00:45:42.653
+Speaker 1: Kullanıcılar.
+
+00:45:43.453 --> 00:45:46.853
+Speaker 1: Gene burada çalışan ana verilerinde.
+
+00:45:48.673 --> 00:45:51.413
+Speaker 1: Şimdi bir tanesine girelim.
+
+00:45:54.133 --> 00:45:59.313
+Speaker 1: Ana ekranda değil miyiz biz?
+
+00:46:01.197 --> 00:46:33.465
+Speaker 1: Sonuncuya git seçeneği niye gelmedi acaba at soyat kısmına böyle rastgele tıklasana bazen onu yapınca getiriyor bak getirdi tamam burada gene şuradaki kodları kullanıyoruz buradaki kodlar önemli buradaki kodlarla giriş sağlıyor ama üretimdeki gibi burada bir depo çalışanı mı şey çalışanı mı diye bir seçeneğimiz yok.
+
+00:46:34.165 --> 00:46:36.865
+Speaker 1: Bunun yerine burada farklı bir uygulama var.
+
+00:46:37.565 --> 00:46:41.585
+Speaker 1: Öncelikle bu ikisinin dolu olduğunu emin olmanız gerekiyor.
+
+00:46:41.805 --> 00:46:45.905
+Speaker 1: Depo kullanacağınız kişinin sonra depo kullandırmak için.
+
+00:46:46.745 --> 00:46:49.525
+Speaker 1: Öncelikle buton parametre geliyorsunuz.
+
+00:46:50.485 --> 00:46:54.565
+Speaker 1: Bu da buton kullanılacak cumali dahil midir bilmiyorum.
+
+00:46:54.785 --> 00:46:58.925
+Speaker 1: Buton kullanılacak yazalım şöyle 369 diye vardır diye.
+
+00:46:59.146 --> 00:46:59.886
+Speaker 1: Uyarı verecek.
+
+00:46:59.906 --> 00:47:02.906
+Speaker 1: Önce.
+
+00:47:07.126 --> 00:47:08.286
+Speaker 1: Onu mu yapalım?
+
+00:47:08.846 --> 00:47:09.986
+Speaker 1: Ekranlarımız neler?
+
+00:47:11.866 --> 00:47:13.646
+Speaker 1: Ekranlarımız neler?
+
+00:47:14.386 --> 00:47:16.486
+Speaker 1: Önce ekranları tanımlamamız gerekiyor.
+
+00:47:16.566 --> 00:47:19.686
+Speaker 1: Hangi ekranlarını kullanabileceklerini şirketlerin.
+
+00:47:20.046 --> 00:47:24.326
+Speaker 1: Şirketlere tüm ekranları kullanma yetkisi vermiyoruz.
+
+00:47:24.966 --> 00:47:34.510
+Speaker 1: Hangi ekranları kullandıracaksanız sadece o ekranların yetkisini yani şirkete yetki vermekten bahsediyorum bu.
+
+00:47:34.610 --> 00:47:40.270
+Speaker 1: Buradaki verdiğim yetki o şirket depodaki hangi ekranları kullanacak.
+
+00:47:42.370 --> 00:47:50.730
+Speaker 1: Onu sistem başlatma uygulama merkezi terminal şirket bilgileri değil.
+
+00:47:51.490 --> 00:47:56.430
+Speaker 1: Burada da gizli bir şıknemiz var.
+
+00:47:57.432 --> 00:47:58.292
+Speaker 1: En sevdiğim şey.
+
+00:47:58.612 --> 00:47:59.792
+Speaker 1: Saat yazıyorsunuz.
+
+00:48:00.172 --> 00:48:00.912
+Speaker 1: Saat kaçsa.
+
+00:48:02.452 --> 00:48:04.652
+Speaker 1: Bu da size ilk başta boş geliyor burası.
+
+00:48:05.912 --> 00:48:07.512
+Speaker 1: Boş bir şekilde gelecektir.
+
+00:48:08.552 --> 00:48:09.232
+Speaker 1: Bütün ekran.
+
+00:48:12.032 --> 00:48:15.152
+Speaker 1: Siz buradan bütün ekranlar burada.
+
+00:48:16.072 --> 00:48:18.912
+Speaker 1: Hangi ekranı kullanmasını istiyorsanız.
+
+00:48:19.792 --> 00:48:20.812
+Speaker 1: Buradan seçip.
+
+00:48:22.052 --> 00:48:24.012
+Speaker 1: Burayı tıklamanız gerekiyor.
+
+00:48:27.318 --> 00:48:28.498
+Speaker 1: Burada seçenek size ait.
+
+00:48:28.638 --> 00:48:31.138
+Speaker 1: Bütün ekranları bir kere de buraya seçersiniz.
+
+00:48:31.418 --> 00:48:33.678
+Speaker 1: Sonra güncellersiniz.
+
+00:48:34.498 --> 00:48:36.918
+Speaker 1: Çünkü sonuçta hepsi bir kere seçilecek.
+
+00:48:37.038 --> 00:48:40.698
+Speaker 1: Ya da isterseniz sadece şey ekledikçe eklenir.
+
+00:48:41.418 --> 00:48:43.818
+Speaker 1: Gibi bir özelliği var.
+
+00:48:43.918 --> 00:48:48.258
+Speaker 1: Hangi ekranları kullanacaksak gördüğünüz gibi birçok ekranımız var.
+
+00:48:49.258 --> 00:48:55.298
+Speaker 1: Çekme listesini kullanmasını istiyorsak çekme listesi yazıp aktif yazıp güncelleye basmamız lazım.
+
+00:48:56.410 --> 00:49:03.170
+Speaker 1: Buraya eklediğiniz her şey bu sonrasında buradaki buton parametreyi açtığınızda.
+
+00:49:04.210 --> 00:49:06.770
+Speaker 1: Önünüze gelecektir.
+
+00:49:08.050 --> 00:49:14.330
+Speaker 1: Burada aralarda boşluk olmasının sebebi o seçmediğimiz ekranlar var buradaki aralarda.
+
+00:49:16.010 --> 00:49:19.030
+Speaker 1: Daha sonra kullanıcıya ekran yetkisi nereden veriyoruz?
+
+00:49:19.150 --> 00:49:22.770
+Speaker 1: Depoyu kullanıp kullanmama yetkisi aslında buradan veriyoruz.
+
+00:49:23.730 --> 00:49:32.760
+Speaker 1: Yani 2 numarası da dolu olan ve bunu bilen kullanıcı aslında terminalde ilk giriş ekranını geçebiliyor.
+
+00:49:32.900 --> 00:49:34.860
+Speaker 1: Geçebildiği tek yer ilk giriş ekranı.
+
+00:49:34.940 --> 00:49:38.560
+Speaker 1: İlk giriş ekranını geçtikten sonra önüne boş bir ekran geliyor.
+
+00:49:39.020 --> 00:49:42.900
+Speaker 1: Bu boş ekranda hangi menülerin listeleneceğini buradan belirliyoruz.
+
+00:49:45.020 --> 00:49:49.860
+Speaker 1: Yani şöyle gideyim.
+
+00:49:50.420 --> 00:49:51.420
+Speaker 1: 29 no'lu.
+
+00:49:52.660 --> 00:49:54.460
+Speaker 1: Müşteriymiş bu bakalım.
+
+00:49:55.658 --> 00:49:57.238
+Speaker 1: Önce bula gelelim.
+
+00:50:01.698 --> 00:50:01.918
+Speaker 1: Bu.
+
+00:50:05.158 --> 00:50:07.118
+Speaker 1: 29 Cuma değilmiş.
+
+00:50:10.618 --> 00:50:13.818
+Speaker 1: Mesela talepsiz depo naklini görebiliyormuş.
+
+00:50:14.638 --> 00:50:15.358
+Speaker 1: Bu arkadaş.
+
+00:50:19.058 --> 00:50:21.338
+Speaker 1: Basit bir şekilde.
+
+00:50:25.730 --> 00:50:27.490
+Speaker 1: Terminal uygulamasına girersek.
+
+00:50:28.950 --> 00:50:31.950
+Speaker 1: 369'du.
+
+00:50:32.190 --> 00:50:34.190
+Speaker 1: Şifresi de 369'du.
+
+00:50:35.510 --> 00:50:36.590
+Speaker 1: Giriş yaparsak.
+
+00:50:36.750 --> 00:50:37.810
+Speaker 1: Sadece telefonsuz.
+
+00:50:38.610 --> 00:50:40.170
+Speaker 1: Talepsiz deponaklini görüyoruz.
+
+00:50:40.330 --> 00:50:43.610
+Speaker 1: Eğer bundan daha değişik bir şey görmesini istiyorsak.
+
+00:50:44.350 --> 00:50:46.730
+Speaker 1: Anlık olarak sadece yapacağım.
+
+00:50:46.910 --> 00:50:47.890
+Speaker 1: Sonra geri alacağım.
+
+00:50:50.230 --> 00:50:54.250
+Speaker 1: Mesela vaporları görmesini ya da palet yapmayı görmesini istiyorsak.
+
+00:50:54.350 --> 00:50:55.550
+Speaker 1: Güncelle dediğimizde.
+
+00:50:57.607 --> 00:51:03.907
+Speaker 1: Tekrar giriş yaptığımızda palet yapma ekranlarını da gördüğünü görebiliyoruz.
+
+00:51:07.667 --> 00:51:10.927
+Speaker 1: Aldırıp güncellen dediğimde.
+
+00:51:10.927 --> 00:51:17.107
+Speaker 1: Terminale gidip tekrar giriş yaptığımızda sadece talepsiz deponaklığını görüyoruz.
+
+00:51:17.827 --> 00:51:19.487
+Speaker 1: Ekranları da böyle yetkilendiriyoruz.
+
+00:51:19.627 --> 00:51:23.607
+Speaker 1: Buton parametreden hangi ekranları görebileceğini yetkilendiriyoruz.
+
+00:51:24.607 --> 00:51:32.468
+Speaker 1: Setup'ta terminali yüklerken de O firmanın hangi ekranları kullanabileceğini işaretliyoruz.
+
+00:51:32.988 --> 00:51:38.648
+Speaker 1: Sonrasında da kullanıcıların hangi ekranları kullanacağını işaretliyoruz.
+
+00:51:39.408 --> 00:51:41.188
+Speaker 1: Bir yetkilendirmemiz daha var.
+
+00:51:41.588 --> 00:51:42.928
+Speaker 1: Burada iki tane detay var.
+
+00:51:43.048 --> 00:51:46.768
+Speaker 1: Burayı daha demin parametrelerden görmüştük.
+
+00:51:46.908 --> 00:51:48.188
+Speaker 1: İki tane versiyon var.
+
+00:51:48.908 --> 00:51:51.308
+Speaker 1: O yüzden şu anda şeye döneyim.
+
+00:51:51.488 --> 00:51:53.468
+Speaker 1: Teste onu test etmek için.
+
+00:51:55.248 --> 00:51:56.868
+Speaker 1: Teste çalışırsak.
+
+00:51:58.070 --> 00:52:00.730
+Speaker 1: daha mantıklı olacak.
+
+00:52:01.950 --> 00:52:09.050
+Speaker 1: Gerçi onu da gösterip yetkini elde gösterip bugünü tamamlayabiliriz.
+
+00:52:09.370 --> 00:52:13.490
+Speaker 1: 1 saate doldurmuş olacağız çünkü biraz geç başladık.
+
+00:52:13.730 --> 00:52:18.410
+Speaker 1: Biraz geçe sarkıtacağım arkadaşlar programınızda bir sıkıntı yoksa.
+
+00:52:26.521 --> 00:52:28.201
+Speaker 1: Hiçbir Edon tanımlanmamış mı?
+
+00:52:28.381 --> 00:52:32.301
+Speaker 1: Toplam tabii ki şu an 45 milyon yazıktan aldım.
+
+00:52:33.901 --> 00:52:37.061
+Speaker 1: 1 saat değil mi?
+
+00:52:38.001 --> 00:52:44.481
+Speaker 3: Yok 1 saat aslında da ben muhtemelen yanlış güncellemeyi unuttum.
+
+00:53:12.303 --> 00:53:25.983
+Speaker 1: Terminal geldi aşağıda da bütün bilgiler vardır depo parametreye gidelim 29 var mıdır?
+
+00:53:26.223 --> 00:53:32.743
+Speaker 1: cumali değil burada yok 369'du cumali 329 muydu?
+
+00:53:34.143 --> 00:53:36.923
+Speaker 1: cumali kaçtı acaba?
+
+00:53:40.203 --> 00:53:41.083
+Speaker 1: 369.
+
+00:53:42.762 --> 00:53:45.722
+Speaker 1: O zaman Cumali yok burada büyük bir ihtimalle.
+
+00:53:46.262 --> 00:53:46.582
+Speaker 1: Bakalım.
+
+00:53:48.542 --> 00:53:52.582
+Speaker 1: Sonuncu kişiye baktığımız için.
+
+00:53:53.862 --> 00:53:58.542
+Speaker 1: 369 Evet Cumali diye bir çalışan yok.
+
+00:53:58.862 --> 00:54:00.522
+Speaker 1: O zaman başka bir çalışan bulacağız.
+
+00:54:02.222 --> 00:54:03.042
+Speaker 1: Ağzına bakalım.
+
+00:54:15.196 --> 00:54:24.576
+Speaker 1: Çansa zaavın kaçmış 48 8'e gidelim Numarası.
+
+00:54:30.376 --> 00:54:34.376
+Speaker 1: 2 Ekranlar.
+
+00:54:39.676 --> 00:54:48.086
+Speaker 1: Yetkisi vardır büyük bir ihtimalle evet Şimdi kullanıcı koduna gidip burada biz neye yetki verdik?
+
+00:54:48.246 --> 00:54:51.386
+Speaker 1: Ekranlara hangi ekranlara girebilir yetkisi verdik?
+
+00:54:51.526 --> 00:54:52.706
+Speaker 1: Sonra neye yetki veriyoruz?
+
+00:54:52.806 --> 00:54:54.546
+Speaker 1: Depoya yetki verebiliyoruz.
+
+00:54:54.766 --> 00:54:56.766
+Speaker 1: Depolara şimdi gideceğiz.
+
+00:54:57.986 --> 00:55:03.446
+Speaker 1: 48 nolu kişiye varsayılan bir depo atayabiliyoruz.
+
+00:55:03.746 --> 00:55:08.706
+Speaker 1: Sonra da bu arkadaşın hangi depolarda işlem yapabileceğini seçiyoruz.
+
+00:55:10.326 --> 00:55:13.986
+Speaker 1: Buradaki seçtiğiniz depoya göre listeleme yapılıyor.
+
+00:55:14.697 --> 00:55:18.957
+Speaker 1: buradaki depoların dışında bir depoya işlem yapamıyor.
+
+00:55:19.437 --> 00:55:26.957
+Speaker 1: Yani hangi depoda çalışıyorsa o depoyu seçebiliyorsunuz ya da hangi depolarda işlem yapacaksa o depoları seçiyorsunuz.
+
+00:55:27.157 --> 00:55:28.577
+Speaker 1: Depoya yetki veriyorsunuz.
+
+00:55:28.657 --> 00:55:31.597
+Speaker 1: Bu dediğim gibi genel yetkilendirme.
+
+00:55:32.057 --> 00:55:34.037
+Speaker 1: Yani depolar için genel yetki veriyoruz.
+
+00:55:34.177 --> 00:55:38.077
+Speaker 1: Her ekranda bu depoya bu depolara yetkisi oluyor.
+
+00:55:38.977 --> 00:55:44.217
+Speaker 1: Peki ben siparişsiz mal girişi yapma yetkisi vermek istiyorum.
+
+00:55:44.802 --> 00:55:49.082
+Speaker 1: Ama talepsiz depo nakli yetkisi vermek istemiyorum.
+
+00:55:49.242 --> 00:55:51.222
+Speaker 1: Genel depoya ya da X bir depoya.
+
+00:55:51.782 --> 00:55:53.462
+Speaker 1: Bu sefer ne yapacağım?
+
+00:55:53.922 --> 00:55:58.002
+Speaker 1: Eğer ekrandan ekrana verdiğim depo yetkileri değişiyorsa.
+
+00:55:59.062 --> 00:56:02.242
+Speaker 1: Bir kişinin birden fazla görevi varsa.
+
+00:56:03.222 --> 00:56:15.468
+Speaker 1: Sayım için bütün depoları sayabiliyorsa ama atıyorum transfer için bütün depolarda işlem yapamıyorsa bu durumda benim versiyon 2 olan parametreyi kullanmam lazım.
+
+00:56:16.128 --> 00:56:18.628
+Speaker 1: Dediğim gibi ikisini aynı anda kullanamıyorsunuz.
+
+00:56:18.708 --> 00:56:30.848
+Speaker 1: Bir tane çalışan da bile bu ayrımı yapmanız gerekiyorsa tüm çalışanları yetkilerini ekran bazlı yapıyor olmanız gerekiyor.
+
+00:56:31.328 --> 00:56:33.448
+Speaker 1: 2.
+
+00:56:33.828 --> 00:56:36.488
+Speaker 1: ekran bazlı yetkilendirmeyi nasıl yapıyoruz?
+
+00:56:36.688 --> 00:56:40.268
+Speaker 1: Bu gördüğünüz gibi basit gidiyorsunuz ilgili deposunu seçiyorsunuz.
+
+00:56:40.348 --> 00:56:42.008
+Speaker 1: Artık o depoları listeleyebiliyor.
+
+00:56:42.447 --> 00:56:43.907
+Speaker 1: O depolarda işlem yapabiliyor.
+
+00:56:44.327 --> 00:56:45.507
+Speaker 1: İkincisinde ne yapıyoruz?
+
+00:56:45.627 --> 00:56:47.147
+Speaker 1: Genel parametrelere geliyoruz.
+
+00:56:47.807 --> 00:56:52.427
+Speaker 1: Depo çalışma tipini versiyon 2 yapıp güncellediğimizde...
+
+00:56:52.427 --> 00:56:56.527
+Speaker 1: Güncelleme butonunu görebilirsek...
+
+00:56:56.527 --> 00:56:58.147
+Speaker 1: Abi buradaki sürüm eski olabilir.
+
+00:56:59.027 --> 00:57:00.547
+Speaker 1: Bakayım mı?
+
+00:57:00.887 --> 00:57:03.067
+Speaker 1: 134'tü, eski değildi.
+
+00:57:04.367 --> 00:57:06.787
+Speaker 1: Bakabilirim hemen kısaca, bakayım mı?
+
+00:57:07.507 --> 00:57:10.327
+Speaker 1: Eski değildi, 134'tü.
+
+00:57:10.387 --> 00:57:11.407
+Speaker 1: Niye yarım açıldı acaba?
+
+00:57:17.868 --> 00:57:18.988
+Speaker 1: Neyse şöyle yapayım.
+
+00:57:19.188 --> 00:57:21.508
+Speaker 1: Nasıl olsa Enter'a basınca güncelleyecek.
+
+00:57:22.708 --> 00:57:30.908
+Speaker 1: İkinci versiyona geçtiğinizde bu sefer depo parametreyi açtığınızda size böyle daha değişik bir ekran gelecek.
+
+00:57:32.148 --> 00:57:38.608
+Speaker 1: Burada hangi ekrana yetki verdiğinize maalesef dikkat etmiyor sistem.
+
+00:57:39.208 --> 00:57:41.508
+Speaker 1: Olan bütün ekranları şuraya getiriyor.
+
+00:57:42.348 --> 00:57:52.123
+Speaker 1: Yani siz yetki vermemiş de olsanız o firmaya Burada ona dikkat etmeden bu kolonları getiriyor.
+
+00:57:53.563 --> 00:57:57.723
+Speaker 1: Bu sefer burada ne yapabiliyorsunuz?
+
+00:57:57.783 --> 00:57:59.183
+Speaker 1: Burada seçtiğiniz zaman.
+
+00:57:59.883 --> 00:58:01.643
+Speaker 1: Neydi onun şeyi?
+
+00:58:02.963 --> 00:58:08.463
+Speaker 1: Kaçtı bizim arkadaş 48 miydi?
+
+00:58:14.264 --> 00:58:19.464
+Speaker 1: Bu da Harun Cansız seçtiğiniz zaman şu anda ben bu da ana ambalaj depoda.
+
+00:58:20.144 --> 00:58:23.604
+Speaker 1: Eğer hepsine vermek istiyorsam şurada en sondaydı.
+
+00:58:23.844 --> 00:58:27.004
+Speaker 1: Gene ekranı açıp görebilecek miyiz bilmiyorum.
+
+00:58:28.304 --> 00:58:29.564
+Speaker 1: Genişlettiğim için.
+
+00:58:30.604 --> 00:58:31.264
+Speaker 1: Şu anda onu.
+
+00:58:33.624 --> 00:58:35.124
+Speaker 1: Göremeyebilirim.
+
+00:58:36.504 --> 00:58:38.884
+Speaker 1: Genişletmeyeyim.
+
+00:58:40.324 --> 00:58:43.624
+Speaker 1: Ekran çaldıkça.
+
+00:58:45.112 --> 00:58:47.312
+Speaker 1: Bu ekran biraz daha şey olmuş.
+
+00:58:48.332 --> 00:58:51.432
+Speaker 1: Şurada seçim yaparsam hepsini seçmiş oluyorum.
+
+00:58:52.212 --> 00:58:52.632
+Speaker 1: Bu arada.
+
+00:58:54.012 --> 00:58:55.632
+Speaker 1: Seçim yaptığım zaman.
+
+00:58:56.492 --> 00:58:58.452
+Speaker 1: Hepsine şey vermiş oluyorum.
+
+00:58:59.212 --> 00:59:03.492
+Speaker 1: Ama atıyorum ben satın alma karşılamayı ve sipariş karşılamaya ilki vereceğim.
+
+00:59:03.752 --> 00:59:08.572
+Speaker 1: Ama barkotu yapmasın, deponaklını yapmasın, hiçbir şeyi yapmasın diyebiliyor.
+
+00:59:09.592 --> 00:59:12.432
+Speaker 1: İşte amonyak tankında.
+
+00:59:13.985 --> 00:59:16.305
+Speaker 1: Talepsiz deponaklıyı yapabilsin.
+
+00:59:17.465 --> 00:59:19.545
+Speaker 1: Hedefini de kullanabilsin.
+
+00:59:19.805 --> 00:59:21.105
+Speaker 1: İkisini değiştirebilsin.
+
+00:59:21.245 --> 00:59:27.865
+Speaker 1: Talebe bağlı deponaklıyı kaynak ve hedeflerine kaynak ve hedef olarak kontrol edebilsin diyebiliyorum.
+
+00:59:29.025 --> 00:59:34.545
+Speaker 1: Burada da artık ekran herkese yetki veriyor oluyorum.
+
+00:59:35.205 --> 00:59:38.145
+Speaker 1: 2 tane yetkilendirme var.
+
+00:59:39.705 --> 00:59:41.045
+Speaker 1: Burada sorusu olan var mı?
+
+00:59:44.191 --> 00:59:45.811
+Speaker 1: Ya da buraya kadar soğusu olan mı?
+
+00:59:46.111 --> 00:59:47.551
+Speaker 1: Bir saati tamamladık.
+
+00:59:49.031 --> 00:59:53.691
+Speaker 3: Ben bir şey sorabilir miyim?
+
+00:59:54.051 --> 00:59:54.291
+Speaker 1: Tabii.
+
+00:59:54.311 --> 00:59:58.991
+Speaker 3: Bu versiyon 2'de depo parametrelerine girdik ya.
+
+00:59:59.291 --> 01:00:05.551
+Speaker 3: Oradaki çıkan sütunlar sayfaların içerisinde yapabileceğim işlem değil mi?
+
+01:00:05.711 --> 01:00:06.271
+Speaker 3: Sayfa değil.
+
+01:00:06.831 --> 01:00:08.251
+Speaker 1: Hayır sayfa, ekran.
+
+01:00:09.231 --> 01:00:12.711
+Speaker 1: Bu ekranda bu depoya ilişkin işlem.
+
+01:00:15.342 --> 01:00:20.782
+Speaker 1: Bu ekrana girme yetkim yoksa zaten depoya yetki versem de bir şey olmaz.
+
+01:00:21.882 --> 01:00:24.762
+Speaker 1: Ekranlarımız buton parametredeydi hatırlarsan.
+
+01:00:25.702 --> 01:00:26.602
+Speaker 1: Ekranlar bunlar.
+
+01:00:28.662 --> 01:00:31.662
+Speaker 1: Aslında.
+
+01:00:33.822 --> 01:00:35.162
+Speaker 3: Bahsetmek istediğim şu.
+
+01:00:35.362 --> 01:00:37.642
+Speaker 3: Mesela siparişsiz mal girişi bir ekran.
+
+01:00:37.842 --> 01:00:39.002
+Speaker 3: Raporlarda bir ekran.
+
+01:00:39.222 --> 01:00:42.362
+Speaker 3: Buton parametresinden onun butonun görünüp görünmemesini sağlıyorum.
+
+01:00:42.697 --> 01:00:45.457
+Speaker 1: O ekranı kullanıp kullanılmama yetkisi veriyorsun.
+
+01:00:45.597 --> 01:00:48.337
+Speaker 1: O ekrana kullanma ya da kullanmama yetkisi veriyorsun.
+
+01:00:48.837 --> 01:00:49.137
+Speaker 3: Tamam.
+
+01:00:49.897 --> 01:01:00.157
+Speaker 3: Ben versiyon 2 seçtiğimde burada depo parametresinde sağda gördüğüm kısımda mesela belgesiz mal girişi bir işlem midir yoksa bir ekran mıdır?
+
+01:01:00.317 --> 01:01:02.857
+Speaker 1: Belgesiz mal girişi şuradaki bir ekrandır.
+
+01:01:03.957 --> 01:01:07.517
+Speaker 1: Mesela ben belgesiz mal girişi yapma yetkisi vermemişim bu şirkete.
+
+01:01:08.177 --> 01:01:10.217
+Speaker 1: Şirkete belgesiz mal girişi verelim.
+
+01:01:14.641 --> 01:01:15.381
+Speaker 1: Gidelim.
+
+01:01:19.421 --> 01:01:22.421
+Speaker 1: Ben.
+
+01:01:24.181 --> 01:01:26.501
+Speaker 3: Peki depo bazında mı ekranlara gidiyorum?
+
+01:01:26.681 --> 01:01:28.041
+Speaker 3: Mesela şu depoyu seçtim.
+
+01:01:28.181 --> 01:01:31.281
+Speaker 1: Sonra o deponun bu ekranları listeleme yapamıyorsun.
+
+01:01:31.441 --> 01:01:32.501
+Speaker 1: Depo bazında gitmiyorsun.
+
+01:01:32.621 --> 01:01:35.021
+Speaker 1: O depoya ilişkin bir işlem yapamıyorsun.
+
+01:01:35.721 --> 01:01:37.621
+Speaker 1: Mesela belgesiz mal girişini bulalım.
+
+01:01:37.741 --> 01:01:40.141
+Speaker 1: Belgesiz mal girişi ekleyelim.
+
+01:01:40.741 --> 01:01:41.561
+Speaker 1: Güncelle diyelim.
+
+01:01:44.763 --> 01:01:47.323
+Speaker 1: Avrun arkadaşa da gelelim bir daha.
+
+01:01:48.023 --> 01:01:50.743
+Speaker 1: Şunu Control F yapalım.
+
+01:01:52.343 --> 01:01:52.923
+Speaker 1: Yapamadık.
+
+01:01:56.283 --> 01:02:01.443
+Speaker 1: Ekranı kapatmışsak bizim arkadaşlar getirmiyor onu.
+
+01:02:02.983 --> 01:02:04.223
+Speaker 1: Son parametreyi açalım.
+
+01:02:06.583 --> 01:02:08.023
+Speaker 1: Control F yapalım.
+
+01:02:09.203 --> 01:02:09.883
+Speaker 1: 2 diyelim.
+
+01:02:10.603 --> 01:02:13.403
+Speaker 1: Mesela belgesiz mal giriş etkisi verelim güncelleyelim.
+
+01:02:14.513 --> 01:02:18.653
+Speaker 1: Şimdi belgesiz mal girişi yetkisi verdiğinde sonra da gelip.
+
+01:02:19.333 --> 01:02:22.413
+Speaker 1: 2 burada 48 ne olu arkadaşa.
+
+01:02:23.493 --> 01:02:31.553
+Speaker 1: Belgesiz mal girişinde sadece şu 2 depoya belgesiz mal girişi yapabilir deyip güncellediğimde.
+
+01:02:33.353 --> 01:02:38.333
+Speaker 1: Bana bunların hepsi de seçimli tabii seçimlere kaldırmam lazım.
+
+01:02:42.323 --> 01:02:49.663
+Speaker 3: Şöyle anladım galiba belgesiz mal girişi ekranına girdiğimde depolar listelenirken ben sadece bu ikisini listeliyorum.
+
+01:02:49.723 --> 01:02:50.843
+Speaker 3: Doğru mu?
+
+01:02:52.823 --> 01:02:54.223
+Speaker 1: Yok işe yaramıyor.
+
+01:02:55.083 --> 01:02:58.083
+Speaker 1: Kontrolle.
+
+01:03:01.163 --> 01:03:03.403
+Speaker 1: Yaramıyormuş şıkla yaramıyormuş.
+
+01:03:04.163 --> 01:03:12.615
+Speaker 1: Aldım sadece şu ikisine yetki verdim diyelim şu an belgesiz mal girişi Yapma yetkisi var sadece.
+
+01:03:13.695 --> 01:03:15.215
+Speaker 1: Terminale gittim.
+
+01:03:16.135 --> 01:03:16.655
+Speaker 1: Yeri dedim.
+
+01:03:19.475 --> 01:03:20.955
+Speaker 1: Şu teste girdik galiba.
+
+01:03:22.095 --> 01:03:22.515
+Speaker 1: 48.
+
+01:03:23.855 --> 01:03:28.275
+Speaker 1: Z testi unutamadım.
+
+01:03:44.795 --> 01:03:46.835
+Speaker 1: Belgesiz mal girişine geldiğimde.
+
+01:03:47.135 --> 01:03:50.935
+Speaker 1: Burada belgesiz mal girişine hangi depodan hangi depoya yapacağımı soracak ya.
+
+01:03:51.095 --> 01:03:51.815
+Speaker 1: Nereye gireceğim?
+
+01:03:51.895 --> 01:03:52.555
+Speaker 1: Hangi depoya?
+
+01:03:53.315 --> 01:03:56.055
+Speaker 1: İşte burada sadece o iki deponun gelmesini bekliyordum.
+
+01:03:56.335 --> 01:03:57.115
+Speaker 1: Gelmedi şu anda.
+
+01:03:59.015 --> 01:03:59.835
+Speaker 3: Anladım.
+
+01:04:00.015 --> 01:04:01.355
+Speaker 3: Sadece liste eleme için yani.
+
+01:04:01.735 --> 01:04:03.265
+Speaker 1: Tablodaki en sağdaki seçim alanı.
+
+01:04:03.265 --> 01:04:05.175
+Speaker 1: En sağdaki seçmediğim için.
+
+01:04:05.375 --> 01:04:06.415
+Speaker 2: Çünkü o aktif.
+
+01:04:07.455 --> 01:04:08.355
+Speaker 1: Evet.
+
+01:04:09.715 --> 01:04:11.075
+Speaker 1: En sağ seçmediğim için.
+
+01:04:14.309 --> 01:04:15.729
+Speaker 1: Hangisi ambalajda?
+
+01:04:16.969 --> 01:04:18.009
+Speaker 3: İkinci ve dördüncü.
+
+01:04:18.729 --> 01:04:21.089
+Speaker 1: İkinci ve dördüncü diye.
+
+01:04:23.349 --> 01:04:26.349
+Speaker 1: Yine.
+
+01:04:39.229 --> 01:04:39.649
+Speaker 1: Gelmedi.
+
+01:04:40.309 --> 01:04:41.609
+Speaker 1: Doğu şirkette miyiz bilmiyorum.
+
+01:04:43.209 --> 01:04:43.949
+Speaker 1: Bakarız buna.
+
+01:04:44.768 --> 01:04:48.228
+Speaker 1: Ama burada sadece iki tane depoyu görecek bu arkadaş.
+
+01:04:49.028 --> 01:04:51.988
+Speaker 1: Yani diğer depoları seçemeyecek.
+
+01:04:52.508 --> 01:04:56.728
+Speaker 1: Depoya göre giriş yapmıyor ama depolarla ilgili işlem yapıyorsun ya içeride.
+
+01:04:57.328 --> 01:04:59.328
+Speaker 1: Mesela satış karşılamayı seçtiğinde.
+
+01:05:00.568 --> 01:05:07.848
+Speaker 1: Satın alma karşılamaya mal girişini seçtiğinde sadece yetkisi olduğu depolar listeleniyor.
+
+01:05:08.900 --> 01:05:14.040
+Speaker 3: Anladım yani ben versiyon 1'de aslında o depoyu hepsinde var veya yok yapıyorum.
+
+01:05:14.140 --> 01:05:16.940
+Speaker 3: Versiyon 2'de de ekran bazlı bu depoları...
+
+01:05:16.940 --> 01:05:21.940
+Speaker 1: Ekran bazlı hangi depoları kullanıp kullanamayacağını düşünüyorsun ama burada depo bazlı bir giriş yok.
+
+01:05:22.080 --> 01:05:26.500
+Speaker 1: Sadece bütün ekranlarda bir depo var ya, sonuçta bu bir depo hareketi ya.
+
+01:05:26.960 --> 01:05:35.020
+Speaker 1: Yani satış karşılama yapıyorsam yani teslimat yapacaksam hangi depoya teslimat yaptığımı biliyorum yani.
+
+01:05:36.406 --> 01:05:38.806
+Speaker 1: Sadece o depoya teslimat yapabilir.
+
+01:05:39.626 --> 01:05:41.746
+Speaker 1: Onun dışındaki depoya teslimat yapamaz.
+
+01:05:42.426 --> 01:05:44.046
+Speaker 3: Anladım, teşekkür ederim.
+
+01:05:44.586 --> 01:05:48.846
+Speaker 1: Bazı yerlerde bütün depoları görüyor bazı ekranlarda ama işlem yapamıyor.
+
+01:05:49.806 --> 01:05:52.046
+Speaker 1: Yetkisi olmadığı için.
+
+01:05:53.546 --> 01:05:58.446
+Speaker 3: Sadece işlemle alakalı da değil, işlem yapabileceği kısımları kısıtlıyoruz.
+
+01:05:59.166 --> 01:06:04.946
+Speaker 1: Bazı ekranlarda hiç görmüyor, bazı ekranlarda ise işlem yapamıyor.
+
+01:06:05.684 --> 01:06:06.664
+Speaker 1: SAP gibi düşün.
+
+01:06:06.784 --> 01:06:09.184
+Speaker 1: Nasıl SAP'de bütün herkes her menüyü görüyor.
+
+01:06:10.084 --> 01:06:12.744
+Speaker 1: Ama bastığı zaman yetkiniz yoktur diyor.
+
+01:06:13.764 --> 01:06:16.284
+Speaker 1: Bazı ekranlar o mantıkla çalışıyor.
+
+01:06:16.384 --> 01:06:18.604
+Speaker 1: Bastığı zaman senin buna yapma yetkin yok diyor.
+
+01:06:20.244 --> 01:06:22.104
+Speaker 1: Bazı ekranlarda ise hiç görmüyor.
+
+01:06:23.224 --> 01:06:32.284
+Speaker 1: Yani seçme ekranlarında depoyu seçmesi gerekiyorsa o işlemde, seçeceği zaman seçeceği depo listesinde hiç görmüyor o depoyu.
+
+01:06:33.064 --> 01:06:34.164
+Speaker 3: Anladım.
+
+01:06:35.367 --> 01:06:39.487
+Speaker 1: Yani ekranın yapısına göre değişiyor.
+
+01:06:40.667 --> 01:06:41.587
+Speaker 1: Yani şunu düşünmeyin.
+
+01:06:41.647 --> 01:06:42.987
+Speaker 1: Ben bu yetkiyi kaldırmıştım.
+
+01:06:43.087 --> 01:06:45.227
+Speaker 1: Bu hala bunun şeylerini görebiliyor.
+
+01:06:45.427 --> 01:06:49.287
+Speaker 1: Hala bu satın alma siparişini görebiliyor yu şey yapmayın.
+
+01:06:49.667 --> 01:06:51.087
+Speaker 1: Bazı ekranlarda görebiliyor.
+
+01:06:52.147 --> 01:06:55.227
+Speaker 1: Görse de yetkisi yoksa işlem yapamıyor.
+
+01:06:55.767 --> 01:06:56.487
+Speaker 3: Tamamdır.
+
+01:06:57.227 --> 01:06:58.187
+Speaker 1: Başka sorusu olan.
+
+01:07:21.470 --> 01:07:43.590
+Speaker 1: Sorusu olan yoksa yarın ufak ilk giriş işlemlerine başlayacağız yani ana parametrelere devam edeceğiz gerçi burada bir iki tane daha parti belirleme seri belirleme gibi ufak iki tane daha şey kaldı tanım.
+
+01:07:45.570 --> 01:08:18.009
+Speaker 1: Dosyası kaldı onun dışındakiler de biz yarın ufak terminal işlemlerine başlayalım hani hangi işlemleri yapıyoruz nasıl yapıyoruz neler var ekranları tek üstünden geçelim neler yaptığımızı bu sefer yarın da ekranların üstünden geçelim ekranlar ne iş yapıyor ne işe yarıyor bakalım terminal üzerinde o zaman yarın görüşürüz arkadaşlar ses çıkmadığına göre Görüşmek üzere.
+
+01:08:18.288 --> 01:08:23.288
+Speaker 1: Kolay gelsin.
+
+01:08:23.429 --> 01:08:24.749
+Speaker 1: Herkese iyi çalışmalar.
+
+01:08:27.109 --> 01:08:30.109
+Speaker 1: Neden.
+
+01:08:43.089 --> 01:08:43.689
+Speaker 1: Gitmiyoruz?
