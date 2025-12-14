@@ -156,7 +156,7 @@ def set_aifteam_styles(doc):
     font_normal = style_normal.font
     font_normal.name = 'Calibri'
     font_normal.size = Pt(12)
-    # Space After ~10pt
+    # Space After ~10pt (127000 EMU)
     style_normal.paragraph_format.space_after = Pt(10)
 
     # 3. Heading 1
@@ -235,7 +235,7 @@ def create_doc_from_plan(video_path, plan_path, output_docx):
         plan = json.load(f)
         
     # Load and Clean Template
-    template_file = r"..\Çoklu Para Birimi Sihirbazı Kullanıcı Dokümanı.docx"
+    template_file = "Çoklu Para Birimi Sihirbazı Kullanıcı Dokümanı.docx"
     doc, anchor_element = clean_and_prepare_template(template_file)
     
     # Update Title
@@ -245,7 +245,7 @@ def create_doc_from_plan(video_path, plan_path, output_docx):
             p.text = "El Terminali WMS Kullanım Kılavuzu"
     
     # Setup Styles (Enforcing calibration just in case)
-    # set_aifteam_styles(doc) # Template likely has them, but we can re-apply/ensure
+    set_aifteam_styles(doc) # Re-apply styles
     
     # Update History Table
     if len(doc.tables) > 0:
@@ -299,10 +299,7 @@ def create_doc_from_plan(video_path, plan_path, output_docx):
 
             if box_count is not False: # extract returns count or False
                 try:
-                    # Adding picture is tricky because access to the paragraph element created by add_picture is encapsulated
-                    # doc.add_picture APPENDS a paragraph with the run.
-                    # We can use doc.add_paragraph() then run.add_picture?
-                    
+                    # Adding picture
                     pic_p = doc.add_paragraph()
                     pic_p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
                     run = pic_p.add_run()
@@ -311,11 +308,20 @@ def create_doc_from_plan(video_path, plan_path, output_docx):
 
                     caption = doc.add_paragraph(f"Ekran Görüntüsü {step_counter}")
                     caption.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                    # caption.style = "Caption" # Style might not exist in template
                     caption.runs[0].font.italic = True
                     caption.runs[0].font.size = Pt(10)
                     add_element_before_anchor(caption._element)
                     
+                    # Manual Edit Note
+                    if box_count == 0:
+                        note_p = doc.add_paragraph()
+                        note_p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                        run_note = note_p.add_run("*(Lütfen tıklanacak alanı kırmızı kutu ile işaretleyiniz)*")
+                        run_note.font.color.rgb = RGBColor(255, 0, 0)
+                        run_note.font.bold = True
+                        run_note.font.size = Pt(10)
+                        add_element_before_anchor(note_p._element)
+
                 except Exception as e:
                     print(f"Error adding image: {e}")
             
@@ -325,8 +331,8 @@ def create_doc_from_plan(video_path, plan_path, output_docx):
     print(f"Successfully saved {output_docx}")
 
 if __name__ == "__main__":
-    video_file = r"..\1-El Terminali Eğitimi-20250623_092431-Toplantı Kaydı.mp4"
+    video_file = "1-El Terminali Eğitimi-20250623_092431-Toplantı Kaydı.mp4"
     plan_file = "content_plan.json"
-    output_file = r"..\Taslak_Dokuman_v7_Styled.docx"
+    output_file = "Taslak_Dokuman_v7_Styled.docx"
     
     create_doc_from_plan(video_file, plan_file, output_file)
