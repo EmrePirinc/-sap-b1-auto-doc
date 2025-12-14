@@ -61,13 +61,13 @@ Transkript ham metni, doğrudan dokümana yapıştırılamaz. Konuşma dili yaz�
 - [x] Temel Word oluşturma.
 - [x] AI tarafından yapılandırılmış içerik planı oluşturma.
 
-### Faz 2: Görsel Zenginleştirme (Sıradaki Hedef)
-- [ ] Referans dokümandaki stilin (Header/Footer, Tablo Stilleri) birebir kopyalanması.
-- [ ] Kırmızı Kutu için yarı-otomatik çözüm (Örn: Mouse tıklama koordinatlarını videodan analiz etme).
-- [ ] Doküman Tarihçesi tablosunun otomatik doldurulması.
+### Faz 2: Görsel Zenginleştirme (Tamamlandı)
+- [x] Referans dokümandaki stilin (Header/Footer, Tablo Stilleri) birebir kopyalanması.
+- [x] Kırmızı Kutu için yarı-otomatik çözüm (Örn: Mouse tıklama koordinatlarını videodan analiz etme).
+- [x] Doküman Tarihçesi tablosunun otomatik doldurulması.
 
-### Faz 3: Kullanıcı Arayüzü (Opsiyonel)
-- [ ] Komut satırı yerine basit bir arayüz (GUI) ile dosya seçimi.
+### Faz 3: Kullanıcı Arayüzü (Tamamlandı)
+- [x] Komut satırı yerine basit bir arayüz (GUI) ile dosya seçimi.
 
 ## 5. Jules İçin Aksiyon Maddeleri
 
