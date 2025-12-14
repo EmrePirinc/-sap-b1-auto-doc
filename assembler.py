@@ -11,52 +11,137 @@ from docx.oxml.ns import qn
 def extract_frame_with_redbox(video_path, time_sec, output_path):
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
-        print(f"Error: Could not open video {video_path}")
         return False
-    
-    # 1. Get Current Frame
+        
     cap.set(cv2.CAP_PROP_POS_MSEC, time_sec * 1000)
     ret1, frame_curr = cap.read()
     
-    # 2. Get Previous Frame (1.5s before) to find what changed
-    # (Using 1.5s to be safe against slow transitions)
     prev_time = max(0, time_sec - 1.5)
     cap.set(cv2.CAP_PROP_POS_MSEC, prev_time * 1000)
     ret2, frame_prev = cap.read()
     
     cap.release()
     
-    if not ret1:
-        print(f"Error: Could not read frame at {time_sec}")
-        return False
-
-    final_image = frame_curr
+    if not ret1: return False
     
-    # 3. Detect Red Box if we have a previous frame
+    final_image = frame_curr.copy()
+    
     if ret2:
         try:
             gray_curr = cv2.cvtColor(frame_curr, cv2.COLOR_BGR2GRAY)
             gray_prev = cv2.cvtColor(frame_prev, cv2.COLOR_BGR2GRAY)
+            # 1. Analyze Structure (Horizontal Grouping)
+            # We want to group [Checkbox] + [Text Label] into one block.
+            # So we use a kernel that is wide but short.
+            gray_curr_clean = cv2.cvtColor(frame_curr, cv2.COLOR_BGR2GRAY)
+            edges = cv2.Canny(gray_curr_clean, 30, 100)
             
+            # Horizontal Kernel: (3, 20) means dilate 20 pixels horizontally, 3 vertically
+            # This merges words and checkoxes on the same line.
+            kernel_horizontal = np.ones((3, 25), np.uint8) 
+            edges_dilated = cv2.dilate(edges, kernel_horizontal, iterations=1)
+            
+            contours_ui, _ = cv2.findContours(edges_dilated, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+            
+            ui_boxes = []
+            for c in contours_ui:
+                x, y, w, h = cv2.boundingRect(c)
+                # Filter useful UI rows
+                # Height should be reasonable for a text line (15-60px)
+                # Width should be enough for text (>50px)
+                if h > 15 and h < 80 and w > 50: 
+                    ui_boxes.append((x, y, w, h))
+
+            # 2. Analyze Changes (Diff)
             diff = cv2.absdiff(gray_curr, gray_prev)
-            _, thresh = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY)
-            kernel = np.ones((5,5), np.uint8)
-            dilated = cv2.dilate(thresh, kernel, iterations=2)
-            contours, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            _, thresh = cv2.threshold(diff, 25, 255, cv2.THRESH_BINARY)
             
-            if contours:
-                # Find largest change
-                c = max(contours, key=cv2.contourArea)
-                if cv2.contourArea(c) > 500: # Ignore noise
-                    x, y, w, h = cv2.boundingRect(c)
-                    # Draw Red Box
-                    cv2.rectangle(final_image, (x, y), (x+w, y+h), (0, 0, 255), 3)
+            # Dilate the diff too, to tolerate small discrepancies
+            kernel_diff = np.ones((5,5), np.uint8)
+            dilated_diff = cv2.dilate(thresh, kernel_diff, iterations=3)
+            
+            contours_diff, _ = cv2.findContours(dilated_diff, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            
+            # Sort contours by area
+            contours_diff = sorted(contours_diff, key=cv2.contourArea, reverse=True)
+            
+            count = 1
+            boxes_found = []
+            
+            for c in contours_diff:
+                if cv2.contourArea(c) > 300: # Significant change
+                    dx, dy, dw, dh = cv2.boundingRect(c)
+                    
+                    # 3. Smart Match: Find enclosing UI Box
+                    best_match = None
+                    min_area = float('inf')
+                    
+                    # Logic: Find smallest UI box that roughly contains the diff box
+                    # We allow some tolerance
+                    for ux, uy, uw, uh in ui_boxes:
+                        # Check intersection/inclusion
+                        # Simple inclusion: UI box contains center of Diff box?
+                        cx = dx + dw/2
+                        cy = dy + dh/2
+                        
+                        if (ux <= cx <= ux + uw) and (uy <= cy <= uy + uh):
+                            # It contains center. Is it smaller than current best?
+                            area = uw * uh
+                            # Also avoid huge container boxes (like the whole window)
+                            if area < min_area and area < (frame_curr.shape[0]*frame_curr.shape[1] * 0.9):
+                                min_area = area
+                                best_match = (ux, uy, uw, uh)
+                    
+                    # Select Box to Draw
+                    if best_match:
+                        fx, fy, fw, fh = best_match
+                    else:
+                        # Fallback: Just the diff box + padding
+                        fx, fy, fw, fh = dx-5, dy-5, dw+10, dh+10
+                    
+                    # Check overlap with already drawn boxes to prevent duplicates
+                    is_duplicate = False
+                    for b in boxes_found:
+                        # simple centers distance check
+                        bx, by, bw, bh = b
+                        if abs(fx - bx) < 20 and abs(fy - by) < 20: 
+                             is_duplicate = True
+                             break
+                    
+                    if is_duplicate: continue
+
+                    # Draw Red Box (BGR: 0, 0, 255)
+                    cv2.rectangle(final_image, (fx, fy), (fx+fw, fy+fh), (0, 0, 255), 2)
+                    
+                    # Draw Label (Circle with Number)
+                    center_x = fx
+                    center_y = fy
+                    radius = 12
+                    # Ensure circle is inside image
+                    center_y = max(radius, center_y)
+                    center_x = max(radius, center_x)
+                    
+                    cv2.circle(final_image, (center_x, center_y), radius, (0, 0, 255), -1)
+                    
+                    label = str(count)
+                    cv2.putText(final_image, label, (center_x - 5, center_y + 5), 
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
+                    
+                    boxes_found.append((fx, fy, fw, fh))
+                    count += 1
+                    if count > 5: break
+            
+            # Save
+            cv2.imwrite(output_path, final_image)
+            return len(boxes_found)
+            
         except Exception as e:
             print(f"RedBox Error: {e}")
-
-    # Save
-    cv2.imwrite(output_path, final_image)
-    return True
+            cv2.imwrite(output_path, final_image)
+            return 0
+    else:
+        cv2.imwrite(output_path, final_image)
+        return 0
 
 def set_aifteam_styles(doc):
     # 1. Page Margins
@@ -104,39 +189,74 @@ def set_aifteam_styles(doc):
     style_h3.paragraph_format.space_before = Pt(2)
     style_h3.paragraph_format.space_after = Pt(0)
 
+
+def clean_and_prepare_template(template_path):
+    doc = Document(template_path)
+    body = doc.element.body
+    
+    # 1. Find Start (1. Amaç) and End (First Table)
+    start_index = -1
+    table_index = -1
+    
+    history_tbl = None
+    if len(doc.tables) > 0:
+        history_tbl = doc.tables[0]._element
+        try:
+            table_index = body.index(history_tbl)
+        except ValueError:
+            print("Table not found in body")
+            
+    # Find "1. Amaç"
+    for i, child in enumerate(body.iterchildren()):
+        if child.tag.endswith('p'):
+            text = "".join([t.text for t in child.xpath('.//w:t') if t.text])
+            if "1. Amaç" in text:
+                start_index = i
+                break
+                
+    if start_index != -1 and table_index != -1:
+        print(f"Cleaning content between index {start_index} and {table_index}")
+        # Collect elements to remove
+        to_remove = []
+        for i, child in enumerate(body.iterchildren()):
+            if i >= start_index and i < table_index:
+                to_remove.append(child)
+        
+        for child in to_remove:
+            body.remove(child)
+    else:
+        print("Warning: Could not find markers (1. Amaç or Table). Appending to end.")
+        
+    return doc, history_tbl
+
 def create_doc_from_plan(video_path, plan_path, output_docx):
     # Load Plan
     with open(plan_path, 'r', encoding='utf-8') as f:
         plan = json.load(f)
         
-    doc = Document()
+    # Load and Clean Template
+    template_file = r"..\Çoklu Para Birimi Sihirbazı Kullanıcı Dokümanı.docx"
+    doc, anchor_element = clean_and_prepare_template(template_file)
     
-    # Apply Professional Styles
-    set_aifteam_styles(doc)
+    # Update Title
+    for p in doc.paragraphs[:30]:
+        if "Çoklu Para Birimi" in p.text or "Sihirbazı" in p.text:
+            print(f"Updating Title: {p.text}")
+            p.text = "El Terminali WMS Kullanım Kılavuzu"
     
-    # Add Cover Page
-    doc.add_heading('El Terminali Kullanım Kılavuzu', 0)
-    doc.add_paragraph('Sürüm: 1.0').alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-    doc.add_paragraph('Tarih: 14.12.2025').alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-    doc.add_page_break()
+    # Setup Styles (Enforcing calibration just in case)
+    # set_aifteam_styles(doc) # Template likely has them, but we can re-apply/ensure
     
-    # Add Document History (Placeholder)
-    doc.add_heading('Doküman Tarihçesi', level=1)
-    table = doc.add_table(rows=2, cols=4)
-    table.style = 'Table Grid'
-    hdr_cells = table.rows[0].cells
-    hdr_cells[0].text = 'Versiyon'
-    hdr_cells[1].text = 'Tarih'
-    hdr_cells[2].text = 'Yazar'
-    hdr_cells[3].text = 'Açıklama'
-    
-    start_cells = table.rows[1].cells
-    start_cells[0].text = '1.0'
-    start_cells[1].text = datetime.now().strftime("%d.%m.%Y")
-    start_cells[2].text = 'Otomasyon Aracı'
-    start_cells[3].text = 'İlk Taslak'
-    
-    doc.add_page_break()
+    # Update History Table
+    if len(doc.tables) > 0:
+        table = doc.tables[0]
+        # Add a new row for this document
+        # Or just update the first row? Let's add a new row
+        row = table.add_row()
+        row.cells[0].text = '1.0'
+        row.cells[1].text = datetime.now().strftime("%d.%m.%Y")
+        row.cells[2].text = 'Otomasyon (Jules)'
+        row.cells[3].text = 'El Terminali Eğitimi'
 
     # Content Body
     img_dir = "final_images"
@@ -145,13 +265,20 @@ def create_doc_from_plan(video_path, plan_path, output_docx):
         
     step_counter = 1
     
+    # Helper to insert before anchor
+    def add_element_before_anchor(element):
+        if anchor_element is not None:
+             anchor_element.addprevious(element)
+    
     for item in plan:
         if item['type'] == 'heading':
-            doc.add_heading(item['text'], level=item['level'])
+            h = doc.add_heading(item['text'], level=item['level'])
+            add_element_before_anchor(h._element)
             
         elif item['type'] == 'step':
             # Add Text
             p = doc.add_paragraph(item['text'])
+            add_element_before_anchor(p._element)
             
             # Extract and Add Image
             time_sec = item['time']
@@ -160,17 +287,38 @@ def create_doc_from_plan(video_path, plan_path, output_docx):
             
             print(f"Processing Step {step_counter}: {item['text'][:30]}... at {time_sec}s")
             
-            if extract_frame_with_redbox(video_path, time_sec, img_path):
+            box_count = extract_frame_with_redbox(video_path, time_sec, img_path)
+            
+            # Update text with references if boxes found
+            if box_count and box_count > 0:
+                refs = ", ".join([f"Kutu {i+1}" for i in range(box_count)])
+                if box_count == 1:
+                    p.add_run(f" (Bkz: Kutu 1)")
+                else:
+                    p.add_run(f" (Bkz: {refs})")
+
+            if box_count is not False: # extract returns count or False
                 try:
-                    doc.add_picture(img_path, width=Inches(6))
+                    # Adding picture is tricky because access to the paragraph element created by add_picture is encapsulated
+                    # doc.add_picture APPENDS a paragraph with the run.
+                    # We can use doc.add_paragraph() then run.add_picture?
+                    
+                    pic_p = doc.add_paragraph()
+                    pic_p.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                    run = pic_p.add_run()
+                    run.add_picture(img_path, width=Inches(6))
+                    add_element_before_anchor(pic_p._element)
+
                     caption = doc.add_paragraph(f"Ekran Görüntüsü {step_counter}")
                     caption.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-                    caption.style = "Caption"
+                    # caption.style = "Caption" # Style might not exist in template
+                    caption.runs[0].font.italic = True
+                    caption.runs[0].font.size = Pt(10)
+                    add_element_before_anchor(caption._element)
+                    
                 except Exception as e:
                     print(f"Error adding image: {e}")
             
-            # Remove explicit empty paragraph if style handles spacing
-            # doc.add_paragraph("") 
             step_counter += 1
             
     doc.save(output_docx)
